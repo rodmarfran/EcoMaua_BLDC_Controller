@@ -20,7 +20,7 @@
  */
 class CSystemConstants {
 public:
-  static constexpr float CF_BLDC_MOTOR_POLE_PAIRS = 2.0f; /**< Quantidade de pares de polos do motor BLDC utilizado */
+  static constexpr float CF_BLDC_MOTOR_POLE_PAIRS = 8.0f; /**< Quantidade de pares de polos do motor BLDC utilizado */
 };
 
 #endif

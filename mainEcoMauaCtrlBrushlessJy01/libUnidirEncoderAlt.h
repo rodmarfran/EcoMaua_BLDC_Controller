@@ -1,5 +1,5 @@
 /**
- * @file libUnidirEncoder.h
+ * @file libUnidirEncoderAlt.h
  * @brief Biblioteca para encoder unidirecional.
  * @details Esta biblioteca foi desenvolvida para lidar com um encoder unidirecional usando interrupções em uma plataforma Arduino.
  * @author Rodrigo França
@@ -8,17 +8,25 @@
  * @license MIT
  */
 
-#ifndef LIBUNIDIRENCODER_H
-#define LIBUNIDIRENCODER_H
+#ifndef LIBUNIDIRENCODERALT_H
+#define LIBUNIDIRENCODERALT_H
 
 #include <Arduino.h>
 
 /**
- * @class CUnidirEncoder
+ * @class CUnidirEncoderAlt
  * @brief Classe para operar um encoder unidirecional
  */
-class CUnidirEncoder {
+class CUnidirEncoderAlt {
 public:
+
+  /**
+   * @brief Definição do tipo para o delta de pulsos e tempo
+   */
+  typedef struct PulsesDelta {
+    uint16_t u16EncPulsesDeltaCnt;    /* Delta de pulsos */
+    uint32_t u32EncPulsesDeltaTimeUs; /* Delta de tempo [us] */
+  } TPulsesDelta;
 
   /**
    * @brief Construtor
@@ -26,18 +34,18 @@ public:
    * @param CI8_INTERRUPT_MODE Modo da interrupção do encoder
    * @param CF_PULSES_PER_REV Pulsos por revolução do encoder
    */
-  explicit CUnidirEncoder(const uint8_t CU8_ENCODER_PIN, const int8_t CI8_INTERRUPT_MODE, const float CF_PULSES_PER_REV);
+  explicit CUnidirEncoderAlt(const uint8_t CU8_ENCODER_PIN, const int8_t CI8_INTERRUPT_MODE, const float CF_PULSES_PER_REV);
 
   /**
    * @brief Construtor de cópia
-   * @param CX_OTHER Outro objeto da classe CUnidirEncoder
+   * @param CX_OTHER Outro objeto da classe CUnidirEncoderAlt
    */
-  CUnidirEncoder(const CUnidirEncoder& CX_OTHER);
+  CUnidirEncoderAlt(const CUnidirEncoderAlt& CX_OTHER);
 
   /**
    * @brief Destrutor
    */
-  ~CUnidirEncoder();
+  ~CUnidirEncoderAlt();
 
   /**
    * @brief Inicializa e configura o encoder
@@ -63,9 +71,9 @@ public:
   /**
    * @brief Retorna a diferença de pulsos desde a última chamada (opcionalmente atualiza a contagem)
    * @param bUpdateLastCnt Atualizar a contagem (padrão: true)
-   * @return Diferença de pulsos
+   * @return Diferença de pulsos e tempo
    */
-  uint16_t u16GetEncPulsesDelta(bool bUpdateLastCnt = true) const;
+  TPulsesDelta xGetEncPulsesDelta(bool bUpdateLastCnt = true) const;
 
   /**
    * @brief Retorna a contagem de revoluções
@@ -96,14 +104,19 @@ public:
   float fGetSpeedRadS(float fDeltaTimeS, bool bUpdateLastCnt = true) const;
 
 private:
-  inline void _clearEncPulsesCnts(void);           /**< @brief Limpa as contagens de pulsos do encoder */
-  static void _encPulsesIsr(void);                 /**< @brief Função de interrupção para pulsos do encoder */
-  static CUnidirEncoder* _pxInstance;              /**< @brief Instância única da classe */
-  const uint8_t _CU8_ENCODER_PIN;                  /**< @brief Pino de entrada do encoder */
-  const int8_t _CI8_INTERRUPT_MODE;                /**< @brief Modo da interrupção do encoder */
-  const float _CF_PULSES_PER_REV;                  /**< @brief Pulsos por revolução do encoder */
-  mutable volatile uint16_t _vu16EncPulsesCnt;     /**< @brief Contador atual de pulsos do encoder */
-  mutable volatile uint16_t _vu16EncPulsesLastCnt; /**< @brief Contador anterior de pulsos do encoder */
+  inline void _clearEncPulsesCnts(void);              /**< @brief Limpa as contagens de pulsos do encoder */
+  static void _encPulsesIsr(void);                    /**< @brief Função de interrupção para pulsos do encoder */
+
+  const uint8_t _CU8_ENCODER_PIN;                     /**< @brief Pino de entrada do encoder */
+  const int8_t _CI8_INTERRUPT_MODE;                   /**< @brief Modo da interrupção do encoder */
+  const float _CF_PULSES_PER_REV;                     /**< @brief Pulsos por revolução do encoder */
+  
+  mutable volatile uint16_t _vu16EncPulsesCnt;        /**< @brief Contador atual de pulsos do encoder */
+  mutable volatile uint16_t _vu16EncPulsesLastCnt;    /**< @brief Contador anterior de pulsos do encoder */
+  mutable volatile uint32_t _vu32EncPulsesTimeUs;     /**< @brief Tempo atual de pulsos do encoder [us] */
+  mutable volatile uint32_t _vu32EncPulsesLastTimeUs; /**< @brief Tempo anterior de pulsos do encoder [us] */
+
+  static CUnidirEncoderAlt* _pxInstance;              /**< @brief Instância única da classe */
 };
 
 #endif

@@ -1,5 +1,5 @@
 /**
- * @file libUnidirEncoder.ino
+ * @file libUnidirEncoderAlt.ino
  * @brief Implementação da biblioteca para encoder unidirecional.
  * @details Esta implementação fornece a lógica necessária para lidar com um encoder unidirecional usando interrupções em uma plataforma Arduino.
  * @author Rodrigo França
@@ -8,12 +8,12 @@
  * @license MIT
  */
 
-#include "libUnidirEncoder.h"
+#include "libUnidirEncoderAlt.h"
 
 /**
  * @brief Inicializa a instância única da classe como nullptr
  */
-CUnidirEncoder* CUnidirEncoder::_pxInstance = nullptr;
+CUnidirEncoderAlt* CUnidirEncoderAlt::_pxInstance = nullptr;
 
 /**
  * @brief Construtor
@@ -21,20 +21,20 @@ CUnidirEncoder* CUnidirEncoder::_pxInstance = nullptr;
  * @param CI8_INTERRUPT_MODE Modo da interrupção do encoder
  * @param CF_PULSES_PER_REV Pulsos por revolução do encoder
  */
-CUnidirEncoder::CUnidirEncoder(const uint8_t CU8_ENCODER_PIN, const int8_t CI8_INTERRUPT_MODE, const float CF_PULSES_PER_REV)
+CUnidirEncoderAlt::CUnidirEncoderAlt(const uint8_t CU8_ENCODER_PIN, const int8_t CI8_INTERRUPT_MODE, const float CF_PULSES_PER_REV)
   : _CU8_ENCODER_PIN(CU8_ENCODER_PIN), _CI8_INTERRUPT_MODE(CI8_INTERRUPT_MODE), _CF_PULSES_PER_REV(CF_PULSES_PER_REV) {}
 
 /**
  * @brief Construtor de cópia
- * @param CX_OTHER Outro objeto da classe CUnidirEncoder
+ * @param CX_OTHER Outro objeto da classe CUnidirEncoderAlt
  */
-CUnidirEncoder::CUnidirEncoder(const CUnidirEncoder& CX_OTHER)
+CUnidirEncoderAlt::CUnidirEncoderAlt(const CUnidirEncoderAlt& CX_OTHER)
   : _CU8_ENCODER_PIN(CX_OTHER._CU8_ENCODER_PIN), _CI8_INTERRUPT_MODE(CX_OTHER._CI8_INTERRUPT_MODE), _CF_PULSES_PER_REV(CX_OTHER._CF_PULSES_PER_REV) {}
 
 /**
  * @brief Destrutor
  */
-CUnidirEncoder::~CUnidirEncoder() {
+CUnidirEncoderAlt::~CUnidirEncoderAlt() {
   disableEncoder();
   _pxInstance = nullptr;
 }
@@ -42,7 +42,7 @@ CUnidirEncoder::~CUnidirEncoder() {
 /**
  * @brief Inicializa e configura o encoder
  */
-void CUnidirEncoder::begin(void) {
+void CUnidirEncoderAlt::begin(void) {
   pinMode(_CU8_ENCODER_PIN, INPUT);
   enableEncoder();
   _pxInstance = this;
@@ -51,7 +51,7 @@ void CUnidirEncoder::begin(void) {
 /**
  * @brief Habilita o encoder e suas interrupções
  */
-void CUnidirEncoder::enableEncoder(void) {
+void CUnidirEncoderAlt::enableEncoder(void) {
   _clearEncPulsesCnts();
   attachInterrupt(digitalPinToInterrupt(_CU8_ENCODER_PIN), _encPulsesIsr, _CI8_INTERRUPT_MODE);
 }
@@ -59,7 +59,7 @@ void CUnidirEncoder::enableEncoder(void) {
 /**
  * @brief Desabilita o encoder e suas interrupções
  */
-void CUnidirEncoder::disableEncoder(void) {
+void CUnidirEncoderAlt::disableEncoder(void) {
   detachInterrupt(digitalPinToInterrupt(_CU8_ENCODER_PIN));
   _clearEncPulsesCnts();
 }
@@ -68,14 +68,14 @@ void CUnidirEncoder::disableEncoder(void) {
  * @brief Retorna a contagem atual de pulsos do encoder
  * @return Contagem atual de pulsos do encoder
  */
-inline uint16_t CUnidirEncoder::u16GetEncPulsesCnt(void) const {
+inline uint16_t CUnidirEncoderAlt::u16GetEncPulsesCnt(void) const {
   return (_vu16EncPulsesCnt);
 }
 
 /**
  * @brief Limpa as contagens de pulsos do encoder
  */
-void CUnidirEncoder::_clearEncPulsesCnts(void) {
+void CUnidirEncoderAlt::_clearEncPulsesCnts(void) {
   _vu16EncPulsesCnt = 0;
   _vu16EncPulsesLastCnt = 0;
 }
@@ -85,25 +85,29 @@ void CUnidirEncoder::_clearEncPulsesCnts(void) {
  * @param bUpdateLastCnt Atualizar a contagem (padrão: true)
  * @return Diferença de pulsos desde a última chamada
  */
-uint16_t CUnidirEncoder::u16GetEncPulsesDelta(bool bUpdateLastCnt) const {
-  uint16_t u16EncPulses;
-  uint16_t u16EncPulsesDelta;
+CUnidirEncoderAlt::TPulsesDelta CUnidirEncoderAlt::xGetEncPulsesDelta(bool bUpdateLastCnt) const {
+  uint16_t u16EncPulsesCnt;
+  uint32_t u32EncPulsesTime;
+  TPulsesDelta xPulsesDelta;
 
-  u16EncPulses = _vu16EncPulsesCnt;
-  u16EncPulsesDelta = static_cast<uint16_t>(u16EncPulses - _vu16EncPulsesLastCnt);
+  u16EncPulsesCnt = _vu16EncPulsesCnt;
+  u32EncPulsesTime = _vu32EncPulsesTimeUs;
+  xPulsesDelta.u16EncPulsesDeltaCnt = static_cast<uint16_t>(u16EncPulsesCnt - _vu16EncPulsesLastCnt);
+  xPulsesDelta.u32EncPulsesDeltaTimeUs = static_cast<uint32_t>(u32EncPulsesTime - _vu32EncPulsesLastTimeUs);
 
   if (bUpdateLastCnt == true) {
-    _vu16EncPulsesLastCnt = u16EncPulses;
+    _vu16EncPulsesLastCnt = u16EncPulsesCnt;
+    _vu32EncPulsesLastTimeUs = u32EncPulsesTime;
   }
 
-  return (u16EncPulsesDelta);
+  return (xPulsesDelta);
 }
 
 /**
  * @brief Retorna a contagem de revoluções
  * @return Contagem de revoluções
  */
-inline float CUnidirEncoder::fGetRevolutionCount(void) const {
+inline float CUnidirEncoderAlt::fGetRevolutionCount(void) const {
   float fRevCount;
 
   fRevCount = static_cast<float>(_vu16EncPulsesCnt) / _CF_PULSES_PER_REV;
@@ -115,7 +119,7 @@ inline float CUnidirEncoder::fGetRevolutionCount(void) const {
  * @brief Retorna o ângulo em radianos
  * @return Ângulo em radianos
  */
-inline float CUnidirEncoder::fGetAngleRad(void) const {
+inline float CUnidirEncoderAlt::fGetAngleRad(void) const {
   float fAngleRad;
 
   fAngleRad = static_cast<float>(_vu16EncPulsesCnt) * (TWO_PI / _CF_PULSES_PER_REV);
@@ -129,14 +133,15 @@ inline float CUnidirEncoder::fGetAngleRad(void) const {
  * @param bUpdateLastCnt Atualizar a contagem (padrão: true)
  * @return Velocidade em RPM (rotações por minuto)
  */
-float CUnidirEncoder::fGetSpeedRpm(float fDeltaTimeS, bool bUpdateLastCnt) const {
-  uint16_t u16EncPulsesDelta;
+float CUnidirEncoderAlt::fGetSpeedRpm(float fDeltaTimeS, bool bUpdateLastCnt) const {
+  TPulsesDelta xPulsesDelta;
   float fSpeedRpm = 0.0f;
 
-  u16EncPulsesDelta = u16GetEncPulsesDelta(bUpdateLastCnt);
+  xPulsesDelta = xGetEncPulsesDelta(bUpdateLastCnt);
 
-  if (fDeltaTimeS > 0.0f) {
-    fSpeedRpm = (static_cast<float>(u16EncPulsesDelta) / fDeltaTimeS) * (60.0f / _CF_PULSES_PER_REV);
+  if (xPulsesDelta.u32EncPulsesDeltaTimeUs > 0.0f) {
+    fSpeedRpm = (static_cast<float>(xPulsesDelta.u16EncPulsesDeltaCnt) / (xPulsesDelta.u32EncPulsesDeltaTimeUs / 1000000.0f)) * (60.0f / _CF_PULSES_PER_REV);
+    // fSpeedRpm = (static_cast<float>(u16EncPulsesDelta) / fDeltaTimeS) * (60.0f / _CF_PULSES_PER_REV);
   }
 
   return (fSpeedRpm);
@@ -148,13 +153,15 @@ float CUnidirEncoder::fGetSpeedRpm(float fDeltaTimeS, bool bUpdateLastCnt) const
  * @param bUpdateLastCnt Atualizar a contagem (padrão: true)
  * @return Velocidade em radianos por segundo
  */
-float CUnidirEncoder::fGetSpeedRadS(float fDeltaTimeS, bool bUpdateLastCnt) const {
-  uint16_t u16EncPulsesDelta;
+float CUnidirEncoderAlt::fGetSpeedRadS(float fDeltaTimeS, bool bUpdateLastCnt) const {
+  TPulsesDelta xPulsesDelta;
   float fSpeedRadS = 0.0f;
 
-  u16EncPulsesDelta = u16GetEncPulsesDelta(bUpdateLastCnt);
-  if (fDeltaTimeS > 0.0f) {
-    fSpeedRadS = (static_cast<float>(u16EncPulsesDelta) / fDeltaTimeS) * (TWO_PI / _CF_PULSES_PER_REV);
+  xPulsesDelta = xGetEncPulsesDelta(bUpdateLastCnt);
+
+  if (xPulsesDelta.u32EncPulsesDeltaTimeUs > 0.0f) {
+    fSpeedRadS = (static_cast<float>(xPulsesDelta.u16EncPulsesDeltaCnt) / (xPulsesDelta.u32EncPulsesDeltaTimeUs / 1000000.0f)) * (TWO_PI / _CF_PULSES_PER_REV);
+    // fSpeedRadS = (static_cast<float>(u16EncPulsesDelta) / fDeltaTimeS) * (TWO_PI / _CF_PULSES_PER_REV);
   }
 
   return (fSpeedRadS);
@@ -163,6 +170,7 @@ float CUnidirEncoder::fGetSpeedRadS(float fDeltaTimeS, bool bUpdateLastCnt) cons
 /**
  * @brief Função de interrupção para pulsos do encoder
  */
-void CUnidirEncoder::_encPulsesIsr(void) {
-  CUnidirEncoder::_pxInstance->_vu16EncPulsesCnt++;
+void CUnidirEncoderAlt::_encPulsesIsr(void) {
+  CUnidirEncoderAlt::_pxInstance->_vu16EncPulsesCnt++;
+  CUnidirEncoderAlt::_pxInstance->_vu32EncPulsesTimeUs = micros();
 }

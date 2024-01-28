@@ -24,9 +24,11 @@ public:
    * @param CU8_ANALOG_PIN Pino analógico do controle
    * @param CU16_LOWER_THRESHOLD Limiar inferior (default 0)
    * @param CU16_UPPER_THRESHOLD Limiar superior (default 1023)
+   * @param CF_CHANGE_RATE_PERCENT Taxa de variação percentual máxima do controle (default 1.0)
+   * @param CF_MAX_CTRL_PERCENT Valor percentual máximo do controle (default 1.0)
    * @param CU8_OUTPUT_BITS Quantidade de bits na saída (default 10)
    */
-  explicit CAnalogCtrlIn(const uint8_t CU8_ANALOG_PIN, const uint16_t CU16_LOWER_THRESHOLD = 0u, const uint16_t CU16_UPPER_THRESHOLD = 1023u, const uint8_t CU8_OUTPUT_BITS = 10u);
+  explicit CAnalogCtrlIn(const uint8_t CU8_ANALOG_PIN, const uint16_t CU16_LOWER_THRESHOLD = 0u, const uint16_t CU16_UPPER_THRESHOLD = 1023u, const float CF_CHANGE_RATE_PERCENT = 1.0f, const float CF_MAX_CTRL_PERCENT = 1.0f, const uint8_t CU8_OUTPUT_BITS = 10u);
 
   /** 
    * @brief Construtor de cópia
@@ -48,20 +50,23 @@ public:
    * @brief Retorna a leitura bruta do controle
    * @return Valor bruto do controle analógico
    */
-  uint16_t u16GetControlRaw(void) const;
+  uint16_t u16GetControlRaw(void);
 
   /**
    * @brief Retorna a porcentagem de ativação do controle
    * @return Porcentagem de ativação do controle analógico
    */
-  float fGetControlPercent(void) const;
+  float fGetControlPercent(void);
 
 private:
   static const uint8_t _CU8_DEFAULT_ADC_BITS = 10u; /**< Quantidade padrão da resolução do ADC interno */
   const uint8_t _CU8_ANALOG_PIN;                    /**< Pino analógico do controle */
   const uint16_t _CU16_LOWER_THRESHOLD;             /**< Limiar inferior */
   const uint16_t _CU16_UPPER_THRESHOLD;             /**< Limiar superior */
+  const uint16_t _CU16_CHANGE_RATE_RAW;             /**< Taxa de variação bruta máxima do controle */
+  const uint16_t _CU16_MAX_CTRL_RAW;                /**< Valor bruta máximo do controle */
   const uint8_t _CU8_DECIMATION_FACTOR;             /**< Fator de decimação para aumentar a resolução da leitura */
+  uint16_t u16LastControlRaw;                       /**< Último valor bruto do controle */
 };
 
 #endif
