@@ -11,17 +11,16 @@
 #include "incSystemConstants.h"
 #include "incSystemScheduler.h"
 
-CAnalogSensor xSystemVoltage(CBoardPins::CU8_VIN_SENSE_AN_PIN, 9.41f, 0.0f, 12, 5.0f);
+CAnalogSensor xSystemVoltage(CBoardPins::CU8_VIN_SENSE_AN_PIN, 9.2775f, 0.0f, 12, 5.0f);
 CAnalogSensor xMotorCurrent(CBoardPins::CU8_IM_SENSE_AN_PIN, 10.0f, 0.0f, 12, 5.0f);
 
 // CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 750, 3100, 0.01f, 0.70f, 12);
-CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 750, 3100, 1.0f, 1.0f, 12);
+// CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 750, 3100, 1.0f, 1.0f, 12); /* Acelerador pequeno */
+CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 850, 3100, 1.0f, 0.80f, 12); /* Acelerador grande */
 
 CWheelUniEncoder xWheelEnc(CBoardPins::CU8_ENC_0_DI_IRQ_PIN, FALLING, 1.0f, 2.010f/TWO_PI);
 
-CJy01BrushlessCtrl xJy01MotorCtrl(CBoardPins::CU8_JY01_CTRL_EL_DO_PIN, CBoardPins::CU8_JY01_CTRL_ZF_DO_PIN, CBoardPins::CU8_JY01_CTRL_M_DI_IRQ_PIN, 3.0f * CSystemConstants::CF_BLDC_MOTOR_POLE_PAIRS);
-
-CPIController xPIController(0.05f, 0.10f, 0.1f, 0.0f, 1.0f, 0.005f, true);
+CJy01BrushlessCtrl xJy01MotorCtrl(CBoardPins::CU8_JY01_CTRL_EL_DO_PIN, CBoardPins::CU8_JY01_CTRL_ZF_DO_PIN, CBoardPins::CU8_JY01_CTRL_M_DI_IRQ_PIN, CSystemConstants::CF_BRUSHED_MOTOR_ENCODER_PPR);
 
 #define xExtSerial Serial
 // AltSoftSerial xExtSerial(CBoardPins::CU8_EXT_UART_RX_PIN, CBoardPins::CU8_EXT_UART_TX_PIN); // RX, TX
@@ -73,9 +72,6 @@ float fTestFinalDistanceM = 0.0f;
 float fTestMinSpeedKmH = 0.0f;
 float fTestMaxSpeedKmH = 0.0f;
 float fTestAvgSpeedKmH = 0.0f;
-
-float fPIControllerEffort = 0.0f;
-
 
 const float CF_WSPD_TO_MRPM_CONV = 46.11f; /* Converte velocidade da roda [km/h] para velocidade do motor [RPM] */
 const float CF_MAX_WSPD_KMH = 30.00f; /* Velocidade máxima do veículo [km/h] */
@@ -200,19 +196,15 @@ float fCalculateTestBNextStep(float fTestFinalDistanceM, float fTestMinSpeedKmH,
 void setup() {
   // put your setup code here, to run once:
 
-  Serial.begin(9600);
   xExtSerial.begin(9600);
 
   xThrottle.begin();
 
   xWheelEnc.begin();
 
-  xPIController.begin();
-  xPIController.resetController();
-
   xJy01MotorCtrl.begin(0x60);
-  xJy01MotorCtrl.setReverseDir();
-  // xJy01MotorCtrl.setFowardDir();
+  // xJy01MotorCtrl.setReverseDir();
+  xJy01MotorCtrl.setFowardDir();
 
   /* tempo para o JY01 inicializar */
   delay(1000);
@@ -422,25 +414,20 @@ void loop() {
         bDriveActivated = false;
       }
       xJy01MotorCtrl.setControlRaw(0);
-      xPIController.resetController();
     } else {
       if (bDriveActivated == false) {
         xJy01MotorCtrl.enableDrive();
         bDriveActivated = true;
         /* Motor iniciando */
         /* Verifica se o veículo está parado */
-        if (fVehicleSpeedkmH == 0.0f) {
+        // if (fVehicleSpeedkmH == 0.0f) {
           /* Veículo parado, aciona o motor com um valor apropriado para sair da inercia */
-          fPIControllerEffort = CF_VEHICLE_STARTING_THROTTLE;
-        } else {
-          /* Veículo em movimento, aciona o motor com um valor apropriado para reduzir o tempo de aceleração em vazio */
-          fPIControllerEffort = (CF_WSPD_TO_MOTV_CONV * fVehicleSpeedkmH) / fVoltageV;
-        }
-        xPIController.setInitialCtrlOutput(fPIControllerEffort);
+          xJy01MotorCtrl.setControlPercent(CF_VEHICLE_STARTING_THROTTLE);
+        // }
       } else {
-        fPIControllerEffort = xPIController.fCalculateController(fThrottlePercent * CF_MAX_WSPD_KMH * CF_WSPD_TO_MRPM_CONV, fMotorSpeedRpm);
+        xJy01MotorCtrl.setControlPercent(fThrottlePercent);
+
       }
-      xJy01MotorCtrl.setControlPercent(fPIControllerEffort);
     }
 
   } /* Fim da execução da tarefa de controle do motor */
