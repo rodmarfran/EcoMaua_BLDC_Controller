@@ -2,6 +2,33 @@
  * @file libJy01BrushlessCtrl.h
  * @brief Biblioteca para o controlador de motores brushless JY01.
  * @details Esta biblioteca simplifica o controle de motores brushless usando o controlador JY01, permitindo ajustar a velocidade e direção do motor de forma fácil e eficiente.
+ *
+ * Commutation Tables:
+ * 
+ *   Direction: Reverse					
+ *   HA HB HC | MA  MB  MC
+ *   ----------------------
+ *   0  0  0  | -   -	-
+ *   0  0  1  | -   PWM GND
+ *   0  1  1  | PWM -   GND
+ *   0  1  0  | PWM GND -
+ *   1  1  0  | -   GND PWM
+ *   1  0  0  | GND -   PWM
+ *   1  0  1  | GND PWM -
+ *   1  1  1  | -   -   -
+ *   
+ *   Direction: Forward					
+ *   HA HB HC | MA  MB  MC
+ *   ----------------------
+ *   0  0  0  | -   -	-
+ *   0  0  1  | -   GND PWM
+ *   0  1  1  | GND -   PWM
+ *   0  1  0  | GND PWM -
+ *   1  1  0  | -   PWM GND
+ *   1  0  0  | PWM -   GND
+ *   1  0  1  | PWM GND -
+ *   1  1  1  | -   -   -
+ *
  * @author Rodrigo França
  * @version 1.0.0
  * @date 2023-04-06
