@@ -1,11 +1,14 @@
-
+/**/
 /* Allows the interface between a control interface and the engage motor on EcoMaua vehicle */
+/**/
+/* Use Tools >> Board >> Digistump AVR Board >> Digispark (Default - 16.5mhz) */
+/**/
 
-#define PWM_OC1A_PIN 1 /* Pin 6 on ATtiny85, OC1A */
-#define PWM_OC1B_PIN 4 /* Pin 3 on ATtiny85, OC1B */
-
-#define CTRL_ENABLE_PIN 0 /* Pin 5 on ATtiny85 */
-#define CTRL_ENGAGE_PIN 2 /* Pin 7 on ATtiny85 */
+#define CTRL_IN_ENGAGE_PIN 0  /* Pin 5 on ATtiny85 */
+#define PWM_OC1A_PIN 1        /* Pin 6 on ATtiny85, OC1A */
+#define CTRL_IN_GNDREF_PIN 2  /* Pin 7 on ATtiny85 */
+#define CTRL_OUT_ENABLE_PIN 3 /* Pin 2 on ATtiny85 */
+#define PWM_OC1B_PIN 4        /* Pin 3 on ATtiny85, OC1B */
 
 void inline timer1_reset_timer() {
   /* Reset Timer1 */
@@ -98,9 +101,15 @@ void inline engage_procedure(bool engage_flag) {
 
 void setup() {
 
-  /* Set the CTRL pins as inputs */
-  pinMode(CTRL_ENABLE_PIN, INPUT);
-  pinMode(CTRL_ENGAGE_PIN, INPUT);
+  /* Set the CTRL_IN pins as inputs */
+  // pinMode(CTRL_IN_ENABLE_PIN, INPUT_PULLUP);
+  pinMode(CTRL_IN_ENGAGE_PIN, INPUT_PULLUP);
+  pinMode(CTRL_IN_GNDREF_PIN, OUTPUT);
+  digitalWrite(CTRL_IN_GNDREF_PIN, LOW);
+
+  /* Set the CTRL_OUT pins as output */
+  pinMode(CTRL_OUT_ENABLE_PIN, OUTPUT);
+  digitalWrite(CTRL_OUT_ENABLE_PIN, LOW);
 
   /* Set the PWM pins as outputs */
   pinMode(PWM_OC1A_PIN, OUTPUT);
@@ -120,12 +129,15 @@ void setup() {
 void loop() {
 
   /* Check enable pin */
-  if (digitalRead(CTRL_ENABLE_PIN)) {
+  // if (digitalRead(CTRL_IN_ENABLE_PIN)) {
+  if (1) {
     /* Engage motor enabled */
+    digitalWrite(CTRL_OUT_ENABLE_PIN, HIGH);
     timer1_start_timer_prescale_CK4();
-    engage_procedure((bool)digitalRead(CTRL_ENGAGE_PIN));
+    engage_procedure((bool)digitalRead(CTRL_IN_ENGAGE_PIN));
   } else {
     /* Engage motor disabled */
+    digitalWrite(CTRL_OUT_ENABLE_PIN, LOW);
     timer1_force_output_OC1A(false);
     timer1_force_output_OC1B(false);
     timer1_stop_timer();
