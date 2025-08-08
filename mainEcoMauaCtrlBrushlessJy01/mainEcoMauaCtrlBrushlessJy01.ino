@@ -16,9 +16,9 @@ CAnalogSensor xMotorCurrent(CBoardPins::CU8_IM_SENSE_AN_PIN, 10.0f, 0.0f, 12, 5.
 
 // CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 750, 3100, 0.01f, 0.70f, 12);
 // CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 750, 3100, 1.0f, 1.0f, 12); /* Acelerador pequeno */
-CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 850, 3100, 1.0f, 0.80f, 12); /* Acelerador grande */
+CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 850, 3100, 1.0f, 1.00f, 12); /* Acelerador grande */
 
-CWheelUniEncoder xWheelEnc(CBoardPins::CU8_ENC_0_DI_IRQ_PIN, FALLING, 1.0f, 2.010f/TWO_PI);
+CWheelUniEncoder xWheelEnc(CBoardPins::CU8_ENC_0_DI_IRQ_PIN, FALLING, 1.0f, 1.420f/TWO_PI);
 
 CJy01BrushlessCtrl xJy01MotorCtrl(CBoardPins::CU8_JY01_CTRL_EL_DO_PIN, CBoardPins::CU8_JY01_CTRL_ZF_DO_PIN, CBoardPins::CU8_JY01_CTRL_M_DI_IRQ_PIN, CSystemConstants::CF_BRUSHED_MOTOR_ENCODER_PPR);
 
@@ -212,7 +212,7 @@ void setup() {
   /* tempo para o JY01 inicializar */
   delay(1000);
 
-  xEcoMcp2515CanCtrl.begin(CAN_500KBPS);
+  xEcoMcp2515CanCtrl.begin(CAN_20KBPS);
 
   xSystemVoltage.begin();
   xMotorCurrent.begin();
@@ -229,6 +229,9 @@ void setup() {
   xSystemScheduler.setTaskEnable(true,  CSystemScheduler::E_MOTOR_CONTROL_TASK);
   xSystemScheduler.setTaskEnable(true,  CSystemScheduler::E_TELEMETRY_TASK);
   xSystemScheduler.setTaskEnable(false, CSystemScheduler::E_CAN_TX_TASK);
+
+  pinMode(CBoardPins::CU8_COUPLING_MOTOR_ENGAGE_DO_PIN, OUTPUT);
+  digitalWrite(CBoardPins::CU8_COUPLING_MOTOR_ENGAGE_DO_PIN, LOW);
 
 }
 
@@ -420,6 +423,7 @@ void loop() {
         bDriveActivated = false;
       }
       xJy01MotorCtrl.setControlRaw(0);
+      digitalWrite(CBoardPins::CU8_COUPLING_MOTOR_ENGAGE_DO_PIN, LOW);
     } else {
       if (bDriveActivated == false) {
         xJy01MotorCtrl.enableDrive();
@@ -427,6 +431,8 @@ void loop() {
         /* Motor iniciando */
         /* Verifica se o veículo está parado */
         // if (fVehicleSpeedkmH == 0.0f) {
+	  digitalWrite(CBoardPins::CU8_COUPLING_MOTOR_ENGAGE_DO_PIN, HIGH);
+	  //delay(100);
           /* Veículo parado, aciona o motor com um valor apropriado para sair da inercia */
           xJy01MotorCtrl.setControlPercent(CF_VEHICLE_STARTING_THROTTLE);
         // }

@@ -28,9 +28,9 @@ public:
   static const uint8_t CU8_LED_1_RED_DO_PIN             = 7u;  /**< Pino de LED 1 (vermelho) */
   static const uint8_t CU8_EXT_UART_RX_PIN              = 8u;  /**< Pino de Tx do UART Externo */
   static const uint8_t CU8_EXT_UART_TX_PIN              = 9u;  /**< Pino de Rx do UART Externo */
-  static const uint8_t CU8_MCP2515_CS_DO_PIN            = 8u;  /**< Pino de Chip Select do modulo CAN MCP2515 */
+  static const uint8_t CU8_MCP2515_CS_DO_PIN            = 9u;  /**< Pino de Chip Select do modulo CAN MCP2515 */
   static const uint8_t CU8_MCP2515_INT_DI_IRQ_PIN       = 9u;  /**< Pino de Interrupção do modulo CAN MCP2515 */
-  static const uint8_t CU8_COUPLING_MOTOR_ENGAGE_DO_PIN = 9u;  /**< Pino de controle do motor de acoplamento */
+  static const uint8_t CU8_COUPLING_MOTOR_ENGAGE_DO_PIN = 8u;  /**< Pino de controle do motor de acoplamento */
   static const uint8_t CU8_ARDUINO_SPI_MOSI_PIN         = 11u; /**< Pino de SPI MOSI do Arduino Nano */
   static const uint8_t CU8_ARDUINO_SPI_MISO_PIN         = 12u; /**< Pino de SPI MISO do Arduino Nano */
   static const uint8_t CU8_ARDUINO_SPI_SCK_PIN          = 13u; /**< Pino de SPI SCK do Arduino Nano */

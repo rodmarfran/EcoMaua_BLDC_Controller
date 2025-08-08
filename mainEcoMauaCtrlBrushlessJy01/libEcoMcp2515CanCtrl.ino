@@ -59,7 +59,7 @@ CEcoMcp2515CanCtrl::~CEcoMcp2515CanCtrl() {
 void CEcoMcp2515CanCtrl::begin(enum CAN_SPEED eCanSpeed) {
   	
   xMcp2515.reset();
-  xMcp2515.setBitrate(eCanSpeed);
+  xMcp2515.setBitrate(eCanSpeed, MCP_8MHZ);
   xMcp2515.setNormalMode();
   _pxInstance = this;
 }

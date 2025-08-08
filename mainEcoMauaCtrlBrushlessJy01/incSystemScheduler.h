@@ -35,7 +35,7 @@ public:
     50ul,   /* Tarefa de medição de energia */
     100ul,  /* Tarefa de controle do motor */
     1000ul, /* Tarefa de telemetria */
-    20ul     /* Tarefa de transmissão CAN */
+    30ul     /* Tarefa de transmissão CAN */
   };
 
   /**
