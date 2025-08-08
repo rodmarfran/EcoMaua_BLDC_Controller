@@ -27,13 +27,15 @@ public:
     E_ENERGY_MEASURE_TASK = 0, /* Tarefa de medição de energia */
     E_MOTOR_CONTROL_TASK,      /* Tarefa de controle do motor */
     E_TELEMETRY_TASK,          /* Tarefa de telemetria */
+    E_CAN_TX_TASK,             /* Tarefa de transmissão CAN */
     E_TASKS_COUNT
   } TSystemTasks;
 
   static constexpr uint32_t _U32_TASK_EXEC_TIME_MS[E_TASKS_COUNT] = { /**< Tempo de execução das tarefas em (milisegundos) */
-    50ul,  /* Tarefa de medição de energia */
-    100ul, /* Tarefa de controle do motor */
-    1000ul /* Tarefa de telemetria */
+    50ul,   /* Tarefa de medição de energia */
+    100ul,  /* Tarefa de controle do motor */
+    1000ul, /* Tarefa de telemetria */
+    20ul     /* Tarefa de transmissão CAN */
   };
 
   /**

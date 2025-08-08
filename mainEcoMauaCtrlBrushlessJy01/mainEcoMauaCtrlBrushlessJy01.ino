@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <AltSoftSerial.h>
 
 #include "libAnalogCtrlIn.h"
 #include "libAnalogSensor.h"
 #include "libWheelUniEncoder.h"
 #include "libPIController.h"
 #include "libJy01BrushlessCtrl.h"
+#include "libEcoMcp2515CanCtrl.h"
 #include "incBoardPins.h"
 #include "incSystemConstants.h"
 #include "incSystemScheduler.h"
@@ -22,8 +22,9 @@ CWheelUniEncoder xWheelEnc(CBoardPins::CU8_ENC_0_DI_IRQ_PIN, FALLING, 1.0f, 2.01
 
 CJy01BrushlessCtrl xJy01MotorCtrl(CBoardPins::CU8_JY01_CTRL_EL_DO_PIN, CBoardPins::CU8_JY01_CTRL_ZF_DO_PIN, CBoardPins::CU8_JY01_CTRL_M_DI_IRQ_PIN, CSystemConstants::CF_BRUSHED_MOTOR_ENCODER_PPR);
 
+CEcoMcp2515CanCtrl xEcoMcp2515CanCtrl(CEcoMcp2515CanCtrl::E_MOTOR_CONTROLLER_DEVID, CBoardPins::CU8_MCP2515_CS_DO_PIN, CBoardPins::CU8_MCP2515_INT_DI_IRQ_PIN);
+
 #define xExtSerial Serial
-// AltSoftSerial xExtSerial(CBoardPins::CU8_EXT_UART_RX_PIN, CBoardPins::CU8_EXT_UART_TX_PIN); // RX, TX
 
 CSystemScheduler xSystemScheduler;
 constexpr uint32_t CSystemScheduler::_U32_TASK_EXEC_TIME_MS[CSystemScheduler::E_TASKS_COUNT];
@@ -43,6 +44,8 @@ float fPowerW = 0.0f;
 float fEnergyJ = 0.0f;
 float fEnergyWh = 0.0f;
 float fAutonomyKmKwH = 0.0f;
+
+uint8_t u8CanTxCnt = 0;
 
 bool bDriveActivated = false;
 
@@ -203,26 +206,29 @@ void setup() {
   xWheelEnc.begin();
 
   xJy01MotorCtrl.begin(0x60);
-  // xJy01MotorCtrl.setReverseDir();
-  xJy01MotorCtrl.setFowardDir();
+  xJy01MotorCtrl.setReverseDir();
+  // xJy01MotorCtrl.setFowardDir();
 
   /* tempo para o JY01 inicializar */
   delay(1000);
+
+  xEcoMcp2515CanCtrl.begin(CAN_500KBPS);
 
   xSystemVoltage.begin();
   xMotorCurrent.begin();
   xMotorCurrent.sensorAutoZeroCalibration();
 
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-  digitalWrite(6, HIGH);
-  digitalWrite(7, HIGH);
+  pinMode(CBoardPins::CU8_LED_0_BLUE_DO_PIN, OUTPUT);
+  pinMode(CBoardPins::CU8_LED_1_RED_DO_PIN, OUTPUT);
+  digitalWrite(CBoardPins::CU8_LED_0_BLUE_DO_PIN, HIGH);
+  digitalWrite(CBoardPins::CU8_LED_1_RED_DO_PIN, HIGH);
 
   xWheelEnc.enableEncoder();
 
-  xSystemScheduler.setTaskEnable(true, CSystemScheduler::E_ENERGY_MEASURE_TASK);
-  xSystemScheduler.setTaskEnable(true, CSystemScheduler::E_MOTOR_CONTROL_TASK);
-  xSystemScheduler.setTaskEnable(true, CSystemScheduler::E_TELEMETRY_TASK);
+  xSystemScheduler.setTaskEnable(true,  CSystemScheduler::E_ENERGY_MEASURE_TASK);
+  xSystemScheduler.setTaskEnable(true,  CSystemScheduler::E_MOTOR_CONTROL_TASK);
+  xSystemScheduler.setTaskEnable(true,  CSystemScheduler::E_TELEMETRY_TASK);
+  xSystemScheduler.setTaskEnable(false, CSystemScheduler::E_CAN_TX_TASK);
 
 }
 
@@ -463,18 +469,44 @@ void loop() {
     xExtSerial.print('>');
     xExtSerial.print("O:");  xExtSerial.print(xOperationalStatus);  /* Operational Status */
     xExtSerial.print("|T:"); xExtSerial.print(fThrottlePercent, 4); /* Throttle [%] */
-    xExtSerial.print("|M:"); xExtSerial.print(fMotorSpeedRpm, 4);   /* Motor Speed [RPM] */
+    xExtSerial.print("|M:"); xExtSerial.print(fMotorSpeedRpm  , 4); /* Motor Speed [RPM] */
     xExtSerial.print("|S:"); xExtSerial.print(fVehicleSpeedkmH, 4); /* Vehicle Speed [km/h] */
-    xExtSerial.print("|D:"); xExtSerial.print(fDistanceM, 4);       /* Distance [m] */
-    xExtSerial.print("|V:"); xExtSerial.print(fVoltageV, 4);        /* Voltage [V] */
-    xExtSerial.print("|I:"); xExtSerial.print(fCurrentA, 4);        /* Current [A] */
-    xExtSerial.print("|P:"); xExtSerial.print(fPowerW, 4);          /* Power [W] */
-    xExtSerial.print("|E:"); xExtSerial.print(fEnergyJ, 4);         /* Energy [J] */
-    // xExtSerial.print("|E:"); xExtSerial.print(fEnergyWh, 4);        /* Energy [Wh] */
-    xExtSerial.print("|A:"); xExtSerial.print(fAutonomyKmKwH, 4);   /* Automony [km/kWh] */
+    xExtSerial.print("|D:"); xExtSerial.print(fDistanceM      , 4); /* Distance [m] */
+    xExtSerial.print("|V:"); xExtSerial.print(fVoltageV       , 4); /* Voltage [V] */
+    xExtSerial.print("|I:"); xExtSerial.print(fCurrentA       , 4); /* Current [A] */
+    xExtSerial.print("|P:"); xExtSerial.print(fPowerW         , 4); /* Power [W] */
+    xExtSerial.print("|E:"); xExtSerial.print(fEnergyJ        , 4); /* Energy [J] */
+    // xExtSerial.print("|E:"); xExtSerial.print(fEnergyWh       , 4); /* Energy [Wh] */
+    xExtSerial.print("|A:"); xExtSerial.print(fAutonomyKmKwH  , 4); /* Automony [km/kWh] */
     xExtSerial.print('\n');
-    // xExtSerial.flushOutput();
+
+    /* Enable CAN transmission task */
+    xSystemScheduler.setTaskEnable(true, CSystemScheduler::E_CAN_TX_TASK);
+    u8CanTxCnt = 0;
 
   } /* Fim da execução da tarefa de telemetria */
+
+  /* Execução da tarefa de transmissão CAN */
+  if (xSystemScheduler.bGetTaskExecFlag(CSystemScheduler::E_CAN_TX_TASK)) {
+
+    /* Execute CAN Transmission */
+    switch(u8CanTxCnt) {
+      case 0: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_THROTTLE_PERCENT_ID , fThrottlePercent); break; /* Throttle [%] */
+      case 1: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_MOTOR_SPEED_RPM_ID  , fMotorSpeedRpm  ); break; /* Motor Speed [RPM] */
+      case 2: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_VEHICLE_SPEED_KMH_ID, fVehicleSpeedkmH); break; /* Vehicle Speed [km/h] */
+      case 3: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_DISTANCE_M_ID       , fDistanceM      ); break; /* Distance [m] */
+      case 4: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_VOLTAGE_V_ID        , fVoltageV       ); break; /* Voltage [V] */
+      case 5: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_CURRENT_A_ID        , fCurrentA       ); break; /* Current [A] */
+      case 6: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_POWER_W_ID          , fPowerW         ); break; /* Power [W] */
+      case 7: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_ENERGY_J_ID         , fEnergyJ        ); break; /* Energy [J] */
+      case 8: xEcoMcp2515CanCtrl.vWriteCanMsgDataFloat(CEcoMcp2515CanCtrl::E_PILOT_SCREEN_DEVID, CEcoMcp2515CanCtrl::E_AUTONOMY_KMKWH_ID   , fAutonomyKmKwH  ); break; /* Automony [km/kWh] */
+      default:
+        u8CanTxCnt = 0;
+        /* Disable CAN transmission task */
+        xSystemScheduler.setTaskEnable(false, CSystemScheduler::E_CAN_TX_TASK);
+    }
+    u8CanTxCnt++;
+
+  } /* Fim da execução da tarefa de transmissão CAN */
 
 }
