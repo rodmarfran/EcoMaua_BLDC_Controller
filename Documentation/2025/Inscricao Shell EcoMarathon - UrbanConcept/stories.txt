@@ -1,0 +1,105 @@
+## Inscrição: Phase 3 - Logistics
+
+### Período de Inscrição
+
+- **Início:** 18/06/2024
+
+- **Término:** 23/07/2024
+
+### Your Team
+
+- *Team Name:
+    - Eco Mauá
+
+### Legal Documents
+
+**Please submit one completed Enrolment Attestation form for the team, confirming that your Institute acknowledges and endorses the participation of the team in this competition, and that all listed participants are either (i) current and valid students enrolled at the Institute or (ii) a faculty advisor from the institute at the time of the competition.**
+
+**It should be signed by someone in your institute with the authority to make such a declaration.**
+
+- *Enrollment Attestation Form
+	- [Attach](attachments/SEM-Brazil-2024-Enrolment-Attestation-Form_Filled.pdf)
+
+**Please submit this document with your team's payment details. This will be used to process any prize money the team wins during the event. :)**
+
+- *Team Invoice
+	- [Attach](attachments/SEM-Brazil-2024-Payment-Details-Form - Sig - Complete.pdf)
+
+**The following information is for the purposes of helping us calculate the carbon footprint of the event. Please complete the template linked below, and let us know if you have any questions.**
+
+**Save the excel form to a pdf, printing in landscape format.**
+
+- *Carbon Footprint Calculator
+	- [Attach](attachments/Travel - Carbon Calculations 2024 - Filled.pdf)
+
+### Team Member Information
+
+**You are allowed up to 15 Team Members for the event.**
+
+**Each Team Member must have their own user account and must have completed their user profile for them to show up as an option in the below dropdown. Please refer to the registration guide for more information.**
+
+- Faculty Advisor: Rodrigo França -- rodrigo.franca@maua.br (Team Admin)
+- Team Manager: Pedro Procópio -- pedrohenriqueprocopio0@gmail.com (Team Admin)
+- Team Manager and Driver: Ana Rodriguez -- 23.00871-7@maua.br (Team Admin)
+- Reserve Driver: Mariana Oshiro -- mariana1000.oshiro@gmail.com
+- General Team Member: Leandro Marques -- tuschi.leandro@gmail.com
+- General Team Member: Gabriel Marques -- 23.00578-5@maua.br
+- General Team Member: Gabriel Miranda -- gabrielf.miranda110@gmail.com
+- General Team Member: Felipe Costa -- felipefazio.costa@gmail.com
+- General Team Member: Carolina Pompei -- carolmpompei@gmail.com
+- General Team Member: Gabriela Silva -- gabrielaapellegrino@gmail.com
+- General Team Member: Miguel Ventanila -- mventanila@hotmail.com
+- General Team Member: Enrico Marins Gerdullo -- gerdulinho@gmail.com
+- General Team Member: Leonardo Bicudo -- leonardofb31@gmail.com
+- General Team Member: Enrico Badra -- enrico.badra@gmail.com
+
+### Transportation of competition vehicle to event
+
+- How are you transporting your competition vehicle to the event?
+    - Self-Drive
+	
+- How many vehicles are you bringing onto site?
+	- 2
+
+- How many of these are large vehicles (buses/trucks)?
+	- 1
+
+- Please provide any other information you feel is relevant regarding your transport
+	- The transportation of the competition vehicle to the event will be carried out in a traditional tour bus. The same bus will be used to transport the team from Instituto Mauá de Tecnologia (in São Caetano do Sul, SP) to the event (in Rio de Janeiro, RJ), as well as to transport team members daily from the hotel to the event (at the beginning of the day) and from the event to the hotel (at the end of the day). Another utility vehicle with a small trailer towed by a hitch will be used for the competition vehicle transport.
+	
+### Transportation of competition vehicle from event to school
+
+- How are you transporting your vehicle from the event back to your school?
+	- Self-Drive
+	
+- Please provide any other information you feel is relevant regarding your transport
+	- The transportation of the competition vehicle to the school will be carried out in a traditional tour bus. The same bus will be used to transport the team from the event (in Rio de Janeiro, RJ) to Instituto Mauá de Tecnologia (in São Caetano do Sul, SP), as well as to transport team members daily from the hotel to the event (at the beginning of the day) and from the event to the hotel (at the end of the day). Another utility vehicle with a small trailer towed by a hitch will be used for the competition vehicle transport.
+	
+### Event Logistics
+
+#### Number of participants
+
+- How many Team Members are coming to the competition?
+	- 14
+
+#### Special Requirements
+
+- Do you have any special requirements we should be aware of?
+	- No.
+	
+### Team Stories
+
+**For all textboxes in this section, the maximum character limit is 1500 characters.**
+
+Team Stories
+PERSERVERANCE:
+The team faced significant challenges leading up to the Shell Eco-marathon, particularly because they had no prior experience building an Urban Concept vehicle from scratch. With less than one year to prepare for the 2025 Shell Eco-marathon Brazil, members had to rapidly acquire extensive knowledge in automotive mechanics and electrical systems. Despite being new to the competition and the additional complexities of an internal combustion engine (ICE), they successfully built a fully functional vehicle. The team prioritized simplicity and robustness to ensure the vehicle passed technical inspections and worked reliably. Through dedication, rapid learning, and collaboration with faculty, advisors, and peers, the team overcame these hurdles, demonstrating their resilience and ability to turn daunting challenges into achievements.
+
+COLLABORATION:
+In São Caetano do Sul and throughout Brazil, sustainability issues such as traffic congestion, pollution, and inefficient energy use are prominent. To tackle these challenges, the team is committed to creating practical, robust, and sustainable vehicles. By closely collaborating with faculty, other student groups, and advisors at their institution, they leveraged their developing STEM skills and rapidly acquired mechanical and electrical knowledge to address real-world issues through their Urban Concept vehicle project. The team hopes their collaborative efforts will inspire others, proving that even teams with limited initial experience can significantly contribute toward sustainable transportation solutions and positively impact their community and beyond.
+
+INNOVATION:
+To successfully build our Urban Concept vehicle from scratch for the 2025 Shell Eco-marathon Brazil, our team focused on simplicity and functionality, given our lack of prior experience and the tight timeframe. We chose straightforward yet robust design solutions, prioritizing reliability over immediate maximum efficiency. The vehicle incorporates an internal combustion engine (ICE), a new and challenging technology for our team. To enhance reliability, we carefully simplified the vehicle's systems, ensuring they would pass rigorous technical inspections. Although efficiency improvements will be a future focus, our current innovations lie in creating a solid foundation and robust mechanical and electrical systems that can serve as a platform for continuous improvement in upcoming competitions.
+
+LOOKING TO THE FUTURE:
+Our team is dedicated to addressing energy transition challenges and advancing sustainability through ongoing innovation. After graduation, members aspire to leverage their hands-on experience gained from constructing an Urban Concept vehicle to pursue projects promoting cleaner energy, sustainable transportation, and reduced carbon emissions. They aim to apply their newfound STEM knowledge to tackle climate and energy challenges at both local and global levels, particularly by refining ICE and electric vehicle technologies and supporting renewable energy initiatives. Ultimately, the team is driven by the goal of contributing to a more sustainable future in Brazil and globally, using their experience as a stepping stone to more ambitious environmental solutions.
