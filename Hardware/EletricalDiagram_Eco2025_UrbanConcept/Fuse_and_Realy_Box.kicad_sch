@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd60cbd9-02dd-4d0c-bed3-a22d81a317b9")
+	(paper "A4")
+	(title_block
+		(date "2025-03-21")
+		(rev "V1.0.0")
+		(comment 1 "Fuse and Relay Box can hold up to 6 fuses and 6 relays.")
+	)
+	(lib_symbols)
+)

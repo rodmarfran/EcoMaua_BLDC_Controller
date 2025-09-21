@@ -1,0 +1,514 @@
+(pcb freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "9.0.0")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  224739 -192786  42418 -192786  42418 -20269.2  224739 -20269.2
+            224739 -192786)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+      (place R2 173604.400000 -139293.800000 front 0.000000 (PN "1 kR"))
+      (place R1 173604.400000 -135243.800000 front 0.000000 (PN "2.2 kR"))
+    )
+    (component "Custom:E32-433T30D LoRa Module"
+      (place M1 62826.900000 -132384.800000 front 0.000000 (PN "E32-433T30D_LoRa_Module"))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place J2 187664.400000 -135543.800000 front 0.000000 (PN I2C_Out))
+    )
+    (component Connector_BarrelJack:BarrelJack_Horizontal
+      (place J1 186554.400000 -125948.800000 front 0.000000 (PN "Jack P4 - Fonte"))
+    )
+    (component "Custom:WeMos ESP32 Board with 18650 Battery Holder"
+      (place ESP1 85902.800000 -98907.600000 front 180.000000 (PN WeMos_ESP32_Board_with_18650_Battery_Holder))
+    )
+    (component "Custom:18650 Battery Holder - 4S"
+      (place BAT2 125802.650000 -33959.800000 front 0.000000 (PN "18650_Battery_Holder_-_4S"))
+    )
+    (component "Custom:18650 Battery Holder - 1S"
+      (place BAT1 102514.400000 -33959.800000 front 0.000000 (PN "18650_Battery_Holder_-_1S"))
+    )
+    (component custom_lib:LM2596HVS_Module_PDIP
+      (place U1 149555.200000 -168021.000000 front 90.000000 (PN LM2596HVS_Module))
+    )
+  )
+  (library
+    (image Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+      (outline (path signal 120  1040 0  1810 0))
+      (outline (path signal 120  1810 1370  1810 -1370))
+      (outline (path signal 120  1810 -1370  8350 -1370))
+      (outline (path signal 120  8350 1370  1810 1370))
+      (outline (path signal 120  8350 -1370  8350 1370))
+      (outline (path signal 120  9120 0  8350 0))
+      (outline (path signal 50  -1050 1500  -1050 -1500))
+      (outline (path signal 50  -1050 -1500  11210 -1500))
+      (outline (path signal 50  11210 1500  -1050 1500))
+      (outline (path signal 50  11210 -1500  11210 1500))
+      (outline (path signal 100  0 0  1930 0))
+      (outline (path signal 100  1930 1250  1930 -1250))
+      (outline (path signal 100  1930 -1250  8230 -1250))
+      (outline (path signal 100  8230 1250  1930 1250))
+      (outline (path signal 100  8230 -1250  8230 1250))
+      (outline (path signal 100  10160 0  8230 0))
+      (pin Round[A]Pad_1600.000000_um 1 0 0)
+      (pin Oval[A]Pad_1600.000000x1600.000000_um 2 10160 0)
+    )
+    (image "Custom:E32-433T30D LoRa Module"
+      (outline (path signal 120  -1905 4318  -1905 -19582))
+      (outline (path signal 120  -1905 4318  41195 4318))
+      (outline (path signal 120  -1905 -19582  41195 -19582))
+      (outline (path signal 120  41195 4318  41195 -19582))
+      (outline (path signal 120  41195 -13082  53795 -13082))
+      (outline (path signal 120  41195 -19582  53795 -19582))
+      (outline (path signal 120  53795 -13082  53795 -19582))
+      (outline (path signal 50  -2286 4699  -2286 -19939))
+      (outline (path signal 50  -2286 4699  54229 4699))
+      (outline (path signal 50  -2286 -19939  54229 -19939))
+      (outline (path signal 50  54229 4699  54229 -19939))
+      (outline (path signal 100  -1905 3683  -1270 4318))
+      (outline (path signal 100  -1905 -19558  -1905 3683))
+      (outline (path signal 100  -1270 4318  41198.8 4318))
+      (outline (path signal 100  41198.8 4318  41198.8 -19558))
+      (outline (path signal 100  41198.8 -19558  -1905 -19558))
+      (pin Rect[A]Pad_3400.000000x1700.000000_um 1 0 0)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 2 0 -2540)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 4 0 -7620)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 5 0 -10160)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 6 0 -12700)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 7 0 -15240)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -8950))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -8950  1330 -8950))
+      (outline (path signal 120  1330 -1270  1330 -8950))
+      (outline (path signal 50  -1800 1800  -1800 -9400))
+      (outline (path signal 50  -1800 -9400  1800 -9400))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -9400  1800 1800))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -8890  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -8890))
+      (outline (path signal 100  1270 -8890  -1270 -8890))
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 1 0 0)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 2 0 -2540)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_1700.000000x1700.000000_um 4 0 -7620)
+    )
+    (image Connector_BarrelJack:BarrelJack_Horizontal
+      (outline (path signal 120  -13800 4600  900 4600))
+      (outline (path signal 120  -13800 -4600  -13800 4600))
+      (outline (path signal 120  -5000 -4600  -13800 -4600))
+      (outline (path signal 120  50 4800  1100 4800))
+      (outline (path signal 120  900 4600  900 2000))
+      (outline (path signal 120  900 -1900  900 -4600))
+      (outline (path signal 120  900 -4600  -1000 -4600))
+      (outline (path signal 120  1100 3750  1100 4800))
+      (outline (path signal 50  -14000 -4750  -14000 4750))
+      (outline (path signal 50  -5000 -4750  -14000 -4750))
+      (outline (path signal 50  -5000 -6750  -5000 -4750))
+      (outline (path signal 50  -1000 -4750  -1000 -6750))
+      (outline (path signal 50  -1000 -6750  -5000 -6750))
+      (outline (path signal 50  1000 4750  -14000 4750))
+      (outline (path signal 50  1000 4500  1000 4750))
+      (outline (path signal 50  1000 4500  1000 2000))
+      (outline (path signal 50  1000 2000  2000 2000))
+      (outline (path signal 50  1000 -2000  1000 -4750))
+      (outline (path signal 50  1000 -4750  -1000 -4750))
+      (outline (path signal 50  2000 2000  2000 -2000))
+      (outline (path signal 50  2000 -2000  1000 -2000))
+      (outline (path signal 100  -13700 4500  -13700 -4500))
+      (outline (path signal 100  -13700 -4500  800 -4500))
+      (outline (path signal 100  -10200 4500  -10200 -4500))
+      (outline (path signal 100  -3.213 4505.43  800 3750))
+      (outline (path signal 100  0 4500  -13700 4500))
+      (outline (path signal 100  800 -4500  800 3750))
+      (pin Rect[A]Pad_3500.000000x3500.000000_um 1 0 0)
+      (pin RoundRect[A]Pad_3000.000000x3500.000000_752.854000_um_0.000000_0 2 -6000 0)
+      (pin RoundRect[A]Pad_3500.000000x3500.000000_878.330000_um_0.000000_0 3 -3000 -4700)
+    )
+    (image "Custom:WeMos ESP32 Board with 18650 Battery Holder"
+      (outline (path signal 120  -1270 20320  -1270 -68580))
+      (outline (path signal 120  -1270 20320  27940 20320))
+      (outline (path signal 120  -1270 -68580  27940 -68580))
+      (outline (path signal 120  27940 20320  27940 -68580))
+      (outline (path signal 50  -1905 20955  -1905 -69215))
+      (outline (path signal 50  -1905 20955  28575 20955))
+      (outline (path signal 50  -1905 -69215  28575 -69215))
+      (outline (path signal 50  28575 20955  28575 -69215))
+      (outline (path signal 100  -1270 19685  -635 20320))
+      (outline (path signal 100  -1270 -68580  -1270 19685))
+      (outline (path signal 100  -635 20320  27940 20320))
+      (outline (path signal 100  27940 20320  27940 -68580))
+      (outline (path signal 100  27940 -68580  -1270 -68580))
+      (pin Rect[A]Pad_3400.000000x1700.000000_um 1 0 0)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 2 0 -2540)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 3 0 -5080)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 4 0 -7620)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 5 0 -10160)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 6 0 -12700)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 7 0 -15240)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 8 0 -17780)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 9 0 -20320)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 10 0 -22860)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 11 0 -25400)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 12 0 -27940)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 13 0 -30480)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 14 0 -33020)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 15 0 -35560)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 16 0 -38100)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 17 0 -40640)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 18 0 -43180)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 19 0 -45720)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 20 0 -48260)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 21 26670 -48260)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 22 26670 -45720)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 23 26670 -43180)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 24 26670 -40640)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 25 26670 -38100)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 26 26670 -35560)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 27 26670 -33020)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 28 26670 -30480)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 29 26670 -27940)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 30 26670 -25400)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 31 26670 -22860)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 32 26670 -20320)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 33 26670 -17780)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 34 26670 -15240)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 35 26670 -12700)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 36 26670 -10160)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 37 26670 -7620)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 38 26670 -5080)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 39 26670 -2540)
+      (pin Oval[A]Pad_3400.000000x1700.000000_um 40 26670 0)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 41 13335 17145)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 42 13335 -65405)
+    )
+    (image "Custom:18650 Battery Holder - 4S"
+      (outline (path signal 120  -10150 -2375  -10150 -80175))
+      (outline (path signal 120  -10150 -2375  70150 -2375))
+      (outline (path signal 120  -10150 -80175  70150 -80175))
+      (outline (path signal 120  10000 -2413  10000 -80137))
+      (outline (path signal 120  30000 -2375  30000 -80137))
+      (outline (path signal 120  50000 -2413  50000 -80137))
+      (outline (path signal 120  70150 -2375  70150 -80175))
+      (outline (path signal 50  -10808.2 3556  -10808.2 -86106))
+      (outline (path signal 50  -10808.2 3556  70808.2 3556))
+      (outline (path signal 50  -10808.2 -86106  70808.2 -86106))
+      (outline (path signal 50  70808.2 3556  70808.2 -86106))
+      (outline (path signal 100  -10095 -3048  -9460 -2413))
+      (outline (path signal 100  -10095 -80137  -10095 -3048))
+      (outline (path signal 100  -9460 -2413  70066.5 -2413))
+      (outline (path signal 100  70066.5 -2413  70066.5 -80137))
+      (outline (path signal 100  70066.5 -80137  -10095 -80137))
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 1 0 0)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 2 0 -82550)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 3 20000 0)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 4 20000 -82550)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 5 40000 0)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 6 40000 -82550)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 7 60000 0)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 8 60000 -82550)
+    )
+    (image "Custom:18650 Battery Holder - 1S"
+      (outline (path signal 120  -10850 -2375  -10850 -80175))
+      (outline (path signal 120  -10850 -2375  10850 -2375))
+      (outline (path signal 120  -10850 -80175  10850 -80175))
+      (outline (path signal 120  10850 -2375  10850 -80175))
+      (outline (path signal 50  -11430 3556  -11430 -86106))
+      (outline (path signal 50  -11430 3556  11430 3556))
+      (outline (path signal 50  -11430 -86106  11430 -86106))
+      (outline (path signal 50  11430 3556  11430 -86106))
+      (outline (path signal 100  -10795 -3048  -10160 -2413))
+      (outline (path signal 100  -10795 -80137  -10795 -3048))
+      (outline (path signal 100  -10160 -2413  10795 -2413))
+      (outline (path signal 100  10795 -2413  10795 -80137))
+      (outline (path signal 100  10795 -80137  -10795 -80137))
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 1 0 0)
+      (pin Rect[A]Pad_7000.000000x6000.000000_um 2 0 -82550)
+    )
+    (image custom_lib:LM2596HVS_Module_PDIP
+      (outline (path signal 120  -20955 10160  -20955 -10160  20955 -10160  20955 10160))
+      (pin RoundRect[A]Pad_1700.000000x1700.000000_426.617000_um_0.000000_0 1 -19685 8890)
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 2 -19685 -8890)
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 3 19685 -8890)
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 4 19685 8890)
+    )
+    (padstack Round[A]Pad_1600.000000_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1600.000000x1600.000000_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_3400.000000x1700.000000_um
+      (shape (path F.Cu 1700  -850 0  850 0))
+      (shape (path B.Cu 1700  -850 0  850 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700.000000x1700.000000_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[A]Pad_3000.000000x3500.000000_752.854000_um_0.000000_0
+      (shape (polygon F.Cu 0  -1502.85 1000  -1487.3 1152.24  -1432.32 1318.17  -1340.55 1466.95
+            -1216.95 1590.55  -1068.17 1682.32  -902.24 1737.3  -750 1752.85
+            750 1752.85  902.24 1737.3  1068.17 1682.32  1216.95 1590.55
+            1340.55 1466.95  1432.32 1318.17  1487.3 1152.24  1502.85 1000
+            1502.85 -1000  1487.3 -1152.24  1432.32 -1318.17  1340.55 -1466.95
+            1216.95 -1590.55  1068.17 -1682.32  902.24 -1737.3  750 -1752.85
+            -750 -1752.85  -902.24 -1737.3  -1068.17 -1682.32  -1216.95 -1590.55
+            -1340.55 -1466.95  -1432.32 -1318.17  -1487.3 -1152.24  -1502.85 -1000
+            -1502.85 1000))
+      (shape (polygon B.Cu 0  -1502.85 1000  -1487.3 1152.24  -1432.32 1318.17  -1340.55 1466.95
+            -1216.95 1590.55  -1068.17 1682.32  -902.24 1737.3  -750 1752.85
+            750 1752.85  902.24 1737.3  1068.17 1682.32  1216.95 1590.55
+            1340.55 1466.95  1432.32 1318.17  1487.3 1152.24  1502.85 1000
+            1502.85 -1000  1487.3 -1152.24  1432.32 -1318.17  1340.55 -1466.95
+            1216.95 -1590.55  1068.17 -1682.32  902.24 -1737.3  750 -1752.85
+            -750 -1752.85  -902.24 -1737.3  -1068.17 -1682.32  -1216.95 -1590.55
+            -1340.55 -1466.95  -1432.32 -1318.17  -1487.3 -1152.24  -1502.85 -1000
+            -1502.85 1000))
+      (attach off)
+    )
+    (padstack RoundRect[A]Pad_3500.000000x3500.000000_878.330000_um_0.000000_0
+      (shape (polygon F.Cu 0  -1753.33 875  -1745.29 993.575  -1699.45 1177.89  -1615.07 1348.04
+            -1496.07 1496.07  -1348.04 1615.07  -1177.89 1699.45  -993.575 1745.29
+            -875 1753.33  875 1753.33  993.575 1745.29  1177.89 1699.45
+            1348.04 1615.07  1496.07 1496.07  1615.07 1348.04  1699.45 1177.89
+            1745.29 993.575  1753.33 875  1753.33 -875  1745.29 -993.575
+            1699.45 -1177.89  1615.07 -1348.04  1496.07 -1496.07  1348.04 -1615.07
+            1177.89 -1699.45  993.575 -1745.29  875 -1753.33  -875 -1753.33
+            -993.575 -1745.29  -1177.89 -1699.45  -1348.04 -1615.07  -1496.07 -1496.07
+            -1615.07 -1348.04  -1699.45 -1177.89  -1745.29 -993.575  -1753.33 -875
+            -1753.33 875))
+      (shape (polygon B.Cu 0  -1753.33 875  -1745.29 993.575  -1699.45 1177.89  -1615.07 1348.04
+            -1496.07 1496.07  -1348.04 1615.07  -1177.89 1699.45  -993.575 1745.29
+            -875 1753.33  875 1753.33  993.575 1745.29  1177.89 1699.45
+            1348.04 1615.07  1496.07 1496.07  1615.07 1348.04  1699.45 1177.89
+            1745.29 993.575  1753.33 875  1753.33 -875  1745.29 -993.575
+            1699.45 -1177.89  1615.07 -1348.04  1496.07 -1496.07  1348.04 -1615.07
+            1177.89 -1699.45  993.575 -1745.29  875 -1753.33  -875 -1753.33
+            -993.575 -1745.29  -1177.89 -1699.45  -1348.04 -1615.07  -1496.07 -1496.07
+            -1615.07 -1348.04  -1699.45 -1177.89  -1745.29 -993.575  -1753.33 -875
+            -1753.33 875))
+      (attach off)
+    )
+    (padstack RoundRect[A]Pad_1700.000000x1700.000000_426.617000_um_0.000000_0
+      (shape (polygon F.Cu 0  -851.617 425  -830.737 556.832  -770.14 675.759  -675.759 770.14
+            -556.832 830.737  -424.999 851.616  425 851.617  556.832 830.737
+            675.759 770.14  770.14 675.759  830.737 556.832  851.616 424.999
+            851.617 -425  830.737 -556.832  770.14 -675.759  675.759 -770.14
+            556.832 -830.737  424.999 -851.616  -425 -851.617  -556.832 -830.737
+            -675.759 -770.14  -770.14 -675.759  -830.737 -556.832  -851.616 -424.999
+            -851.617 425))
+      (shape (polygon B.Cu 0  -851.617 425  -830.737 556.832  -770.14 675.759  -675.759 770.14
+            -556.832 830.737  -424.999 851.616  425 851.617  556.832 830.737
+            675.759 770.14  770.14 675.759  830.737 556.832  851.616 424.999
+            851.617 -425  830.737 -556.832  770.14 -675.759  675.759 -770.14
+            556.832 -830.737  424.999 -851.616  -425 -851.617  -556.832 -830.737
+            -675.759 -770.14  -770.14 -675.759  -830.737 -556.832  -851.616 -424.999
+            -851.617 425))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3400.000000x1700.000000_um
+      (shape (rect F.Cu -1700 -850 1700 850))
+      (shape (rect B.Cu -1700 -850 1700 850))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3500.000000x3500.000000_um
+      (shape (rect F.Cu -1750 -1750 1750 1750))
+      (shape (rect B.Cu -1750 -1750 1750 1750))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_7000.000000x6000.000000_um
+      (shape (rect F.Cu -3500 -3000 3500 3000))
+      (shape (rect B.Cu -3500 -3000 3500 3000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700.000000x1700.000000_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net B+
+      (pins R1-2 ESP1-42 BAT2-1 BAT2-3 BAT2-5 BAT2-7 BAT1-1)
+    )
+    (net "B-"
+      (pins ESP1-41 BAT2-2 BAT2-4 BAT2-6 BAT2-8 BAT1-2)
+    )
+    (net "unconnected-(ESP1-EN-Pad2)"
+      (pins ESP1-2)
+    )
+    (net GND
+      (pins R2-1 M1-7 J2-4 J1-2 J1-3 ESP1-14 ESP1-34 ESP1-40 U1-2 U1-3)
+    )
+    (net "unconnected-(ESP1-P15-Pad25)"
+      (pins ESP1-25)
+    )
+    (net "unconnected-(ESP1-P5-Pad31)"
+      (pins ESP1-31)
+    )
+    (net ESP32_UART_2_RX
+      (pins M1-4 ESP1-29)
+    )
+    (net "unconnected-(ESP1-SD3-Pad17)"
+      (pins ESP1-17)
+    )
+    (net "unconnected-(ESP1-P18-Pad32)"
+      (pins ESP1-32)
+    )
+    (net E32_433T30D_M1
+      (pins M1-2 ESP1-8)
+    )
+    (net "unconnected-(ESP1-P14-Pad12)"
+      (pins ESP1-12)
+    )
+    (net ESP32_UART_2_TX
+      (pins M1-3 ESP1-30)
+    )
+    (net "unconnected-(ESP1-P0-Pad27)"
+      (pins ESP1-27)
+    )
+    (net "unconnected-(ESP1-SVN-Pad4)"
+      (pins ESP1-4)
+    )
+    (net "unconnected-(ESP1-CLK-Pad22)"
+      (pins ESP1-22)
+    )
+    (net "unconnected-(ESP1-CMD-Pad18)"
+      (pins ESP1-18)
+    )
+    (net "unconnected-(ESP1-SD2-Pad16)"
+      (pins ESP1-16)
+    )
+    (net "unconnected-(ESP1-P12-Pad13)"
+      (pins ESP1-13)
+    )
+    (net +5V
+      (pins M1-6 ESP1-19 U1-4)
+    )
+    (net "unconnected-(ESP1-P19-Pad33)"
+      (pins ESP1-33)
+    )
+    (net "unconnected-(ESP1-SD0-Pad23)"
+      (pins ESP1-23)
+    )
+    (net "unconnected-(ESP1-P35-Pad6)"
+      (pins ESP1-6)
+    )
+    (net "unconnected-(ESP1-SVP-Pad3)"
+      (pins ESP1-3)
+    )
+    (net "unconnected-(ESP1-TX-Pad37)"
+      (pins ESP1-37)
+    )
+    (net E32_433T30D_M0
+      (pins M1-1 ESP1-7)
+    )
+    (net BATT_SENS
+      (pins R2-2 R1-1 ESP1-5)
+    )
+    (net "unconnected-(ESP1-P2-Pad26)"
+      (pins ESP1-26)
+    )
+    (net "unconnected-(ESP1-RX-Pad36)"
+      (pins ESP1-36)
+    )
+    (net +3.3V
+      (pins J2-1 ESP1-1)
+    )
+    (net "unconnected-(ESP1-P25-Pad9)"
+      (pins ESP1-9)
+    )
+    (net E32_433T30D_AUX
+      (pins M1-5 ESP1-11)
+    )
+    (net ESP32_I2C_SCL
+      (pins J2-3 ESP1-38)
+    )
+    (net "unconnected-(ESP1-P26-Pad10)"
+      (pins ESP1-10)
+    )
+    (net "unconnected-(ESP1-P13-Pad15)"
+      (pins ESP1-15)
+    )
+    (net "unconnected-(ESP1-P4-Pad28)"
+      (pins ESP1-28)
+    )
+    (net "unconnected-(ESP1-SD1-Pad24)"
+      (pins ESP1-24)
+    )
+    (net ESP32_I2C_SDA
+      (pins J2-2 ESP1-35)
+    )
+    (net "unconnected-(ESP1-P23-Pad39)"
+      (pins ESP1-39)
+    )
+    (net PWR
+      (pins J1-1 U1-1)
+    )
+    (class kicad_default +3.3V +5V B+ "B-" BATT_SENS E32_433T30D_AUX E32_433T30D_M0
+      E32_433T30D_M1 ESP32_I2C_SCL ESP32_I2C_SDA ESP32_UART_2_RX ESP32_UART_2_TX
+      GND PWR "unconnected-(ESP1-CLK-Pad22)" "unconnected-(ESP1-CMD-Pad18)"
+      "unconnected-(ESP1-EN-Pad2)" "unconnected-(ESP1-P0-Pad27)" "unconnected-(ESP1-P12-Pad13)"
+      "unconnected-(ESP1-P13-Pad15)" "unconnected-(ESP1-P14-Pad12)" "unconnected-(ESP1-P15-Pad25)"
+      "unconnected-(ESP1-P18-Pad32)" "unconnected-(ESP1-P19-Pad33)" "unconnected-(ESP1-P2-Pad26)"
+      "unconnected-(ESP1-P23-Pad39)" "unconnected-(ESP1-P25-Pad9)" "unconnected-(ESP1-P26-Pad10)"
+      "unconnected-(ESP1-P35-Pad6)" "unconnected-(ESP1-P4-Pad28)" "unconnected-(ESP1-P5-Pad31)"
+      "unconnected-(ESP1-RX-Pad36)" "unconnected-(ESP1-SD0-Pad23)" "unconnected-(ESP1-SD1-Pad24)"
+      "unconnected-(ESP1-SD2-Pad16)" "unconnected-(ESP1-SD3-Pad17)" "unconnected-(ESP1-SVN-Pad4)"
+      "unconnected-(ESP1-SVP-Pad3)" "unconnected-(ESP1-TX-Pad37)"
+      (circuit
+        (use_via "Via[0-1]_800:400_um")
+      )
+      (rule
+        (width 250)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+  )
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 9)
+  (lib (name "EletricalDiagram_Eco2025_UrbanConcept")(type "KiCad")(uri "${KIPRJMOD}/EletricalDiagram_Eco2025_UrbanConcept.kicad_sym")(options "")(descr ""))
+)

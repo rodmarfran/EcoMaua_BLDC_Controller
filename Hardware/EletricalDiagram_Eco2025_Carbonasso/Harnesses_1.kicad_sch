@@ -1,0 +1,7211 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3d7f9b07-f65d-40e9-8fb7-4c18f8d5ac66")
+	(paper "A4")
+	(title_block
+		(title "Harnesses 1 - EcoMaua 2024 - Carbonasso")
+		(date "2024-07-11")
+		(rev "V1.0.0")
+		(company "Instituto Mauá de Tecnologia")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 138.43 104.14)
+		(end 186.69 124.46)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00cc7521-05a7-4ab7-95ed-ee6b34c9bb28)
+	)
+	(rectangle
+		(start 195.58 99.06)
+		(end 243.84 127)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0a0087f3-b0bd-4af3-8ff5-89dc6bd2f154)
+	)
+	(rectangle
+		(start 81.28 20.32)
+		(end 129.54 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b19f3fa-616d-4592-8f95-26dfc7be3fab)
+	)
+	(rectangle
+		(start 25.4 43.18)
+		(end 73.66 58.42)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 428e6d23-82c0-44ba-a544-eeada000c9dd)
+	)
+	(rectangle
+		(start 25.4 175.26)
+		(end 73.66 190.5)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 470e4a7d-9ae9-458a-9c09-cbdb8c448e27)
+	)
+	(rectangle
+		(start 138.43 76.2)
+		(end 186.69 96.52)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47de0dd3-83fc-41b3-b7da-3e036c4ecbd0)
+	)
+	(rectangle
+		(start 25.4 20.32)
+		(end 73.66 35.56)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68607caf-4bc3-4835-826f-647a6aed75f5)
+	)
+	(rectangle
+		(start 25.4 66.04)
+		(end 73.66 81.28)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7099f7c8-c8ab-4be0-b61c-4a5650f9e83d)
+	)
+	(rectangle
+		(start 25.4 149.86)
+		(end 73.66 167.64)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f8e6b80-1d45-40cd-be19-9da86f261133)
+	)
+	(rectangle
+		(start 195.58 20.32)
+		(end 243.84 40.64)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 844d41e6-f7a6-4cae-b4b9-fb33293efd87)
+	)
+	(rectangle
+		(start 81.28 142.24)
+		(end 129.54 162.56)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91b5f18d-a25b-455d-af00-71ad18867574)
+	)
+	(rectangle
+		(start 81.28 170.18)
+		(end 129.54 190.5)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ccf167d-7e11-4ab2-ad30-b2d2577021c8)
+	)
+	(rectangle
+		(start 195.58 71.12)
+		(end 243.84 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b91390c9-db31-4a61-bb48-9d932e67e319)
+	)
+	(rectangle
+		(start 138.43 48.26)
+		(end 186.69 68.58)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb07758c-5142-4ebf-b739-0c724e969881)
+	)
+	(rectangle
+		(start 25.4 124.46)
+		(end 73.66 142.24)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c25dab12-4d99-4405-9c32-08355e29b57a)
+	)
+	(rectangle
+		(start 195.58 134.62)
+		(end 243.84 156.21)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c5dc27a7-58d2-486b-8cf8-c5e15143406d)
+	)
+	(rectangle
+		(start 25.4 88.9)
+		(end 73.66 116.84)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d62d7ce2-b755-49bb-88d2-f1f6fe89840e)
+	)
+	(rectangle
+		(start 195.58 48.26)
+		(end 243.84 63.5)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df8cffe3-c33d-4904-8e8c-6240ac985f5a)
+	)
+	(rectangle
+		(start 138.43 20.32)
+		(end 186.69 40.64)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e2b03e56-d3d0-4330-b516-755e95c8de34)
+	)
+	(rectangle
+		(start 138.43 132.08)
+		(end 186.69 149.86)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f14f6cc6-b2eb-4aab-ab74-84ce0f3fecff)
+	)
+	(text "Harness_15"
+		(exclude_from_sim no)
+		(at 157.48 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c47ebed-eed8-4d76-b025-d2847ae0289c")
+	)
+	(text "<-- 175 cm -->"
+		(exclude_from_sim no)
+		(at 153.67 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e443aac-cfa8-4b99-bccd-1eacbcce95b8")
+	)
+	(text "<-- 15 cm -->"
+		(exclude_from_sim no)
+		(at 118.11 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "127acb11-3436-4600-82d3-4f72354923eb")
+	)
+	(text "<-- 15 cm -->"
+		(exclude_from_sim no)
+		(at 227.838 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15b52ecb-7d85-462e-83d5-522d4dcefbc9")
+	)
+	(text "Harness_20"
+		(exclude_from_sim no)
+		(at 214.63 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "15c43c3d-c18f-459d-b925-0b83bbdceb3a")
+	)
+	(text "<-- 30 cm -->"
+		(exclude_from_sim no)
+		(at 210.82 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a16c09a-e8e2-48a5-9b10-d19301e499ec")
+	)
+	(text "Harness_18"
+		(exclude_from_sim no)
+		(at 214.63 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "24cdb6a5-3973-45fc-b9eb-59997b15959c")
+	)
+	(text "<-- 90 cm -->"
+		(exclude_from_sim no)
+		(at 96.52 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30e22b78-46d8-4c03-b7d8-df422d7d47fa")
+	)
+	(text "<-- 180 cm -->"
+		(exclude_from_sim no)
+		(at 40.64 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3847ca4f-5303-4ebc-b1e2-b775774118d2")
+	)
+	(text "<-- 10 cm -->"
+		(exclude_from_sim no)
+		(at 43.18 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39e04dfd-8b3e-4481-bd4d-40642914dbb9")
+	)
+	(text "<-- 40 cm -->"
+		(exclude_from_sim no)
+		(at 210.82 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41921452-09ce-4e2b-b4ea-88d0bc214149")
+	)
+	(text "<-- 155 cm -->"
+		(exclude_from_sim no)
+		(at 151.13 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46b8f868-53b4-4df8-9d5c-ce1c569dd4a9")
+	)
+	(text "<-- 220 cm -->"
+		(exclude_from_sim no)
+		(at 40.64 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46d505b5-bf58-47d5-9bea-54a1d63e1585")
+	)
+	(text "Harness_19"
+		(exclude_from_sim no)
+		(at 214.63 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "496c02ae-9f9b-44db-bdeb-ef9f7cba79b8")
+	)
+	(text "Harness_14"
+		(exclude_from_sim no)
+		(at 157.48 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5726101d-823b-42bf-976a-9193b3c21486")
+	)
+	(text "<-- 10 cm -->"
+		(exclude_from_sim no)
+		(at 213.36 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59227c91-268d-41ba-b784-d5f78f9ad374")
+	)
+	(text "<-- 185 cm -->"
+		(exclude_from_sim no)
+		(at 153.67 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f0d6108-0836-4f28-9625-f877d62ada1c")
+	)
+	(text "Harness_6"
+		(exclude_from_sim no)
+		(at 44.45 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "720ffa1f-2ea4-4fd7-8d08-15df1226eb0a")
+	)
+	(text "<-- 90 cm -->"
+		(exclude_from_sim no)
+		(at 40.64 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73d7d07e-fc1c-4deb-8b57-ad2b02f5573e")
+	)
+	(text "<-- 30 cm -->"
+		(exclude_from_sim no)
+		(at 213.36 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74010125-a132-4f67-b887-e942d42a516f")
+	)
+	(text "<-- 30 cm -->"
+		(exclude_from_sim no)
+		(at 153.67 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74175ef5-9179-41d0-8a21-9194d267ab7c")
+	)
+	(text "Harness_4"
+		(exclude_from_sim no)
+		(at 44.45 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "79539504-e265-467b-96f3-e1b53d77411e")
+	)
+	(text "Harness_13"
+		(exclude_from_sim no)
+		(at 157.48 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "79774e6b-7ba8-4da5-9274-a5621ff1a753")
+	)
+	(text "Harness_3"
+		(exclude_from_sim no)
+		(at 44.45 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "83e83e2d-85dd-4911-81c5-3c6ae44a4739")
+	)
+	(text "<-- 60 cm -->"
+		(exclude_from_sim no)
+		(at 96.52 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87def968-e02b-4c1a-9ad9-4c7a18294727")
+	)
+	(text "Harness_7"
+		(exclude_from_sim no)
+		(at 44.45 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "89f30376-494f-4a74-866a-cdbffb989258")
+	)
+	(text "<-- 40 cm -->"
+		(exclude_from_sim no)
+		(at 153.67 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a6f74b4-32b4-4e9a-a638-1b6e6c5fd5ad")
+	)
+	(text "Harness_11"
+		(exclude_from_sim no)
+		(at 157.48 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d575997-3bca-4e38-ba00-adf71865d7b2")
+	)
+	(text "Harness_8"
+		(exclude_from_sim no)
+		(at 100.33 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0939ada-b9b0-4cf0-afe5-b2dec1b8b4a1")
+	)
+	(text "Harness_17"
+		(exclude_from_sim no)
+		(at 214.63 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6060ad0-0f15-4fa6-a8f4-4816f2664456")
+	)
+	(text "<-- 10 cm -->"
+		(exclude_from_sim no)
+		(at 38.1 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6c54b06-2719-4c6d-b85b-42c8f3270d5f")
+	)
+	(text "<-- 10 cm -->"
+		(exclude_from_sim no)
+		(at 38.1 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a75491f2-ce26-48aa-a72b-bcc31754059d")
+	)
+	(text "Harness_5"
+		(exclude_from_sim no)
+		(at 44.45 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7f471db-6cb8-40cd-94b7-53022cdf8e78")
+	)
+	(text "Harness_12"
+		(exclude_from_sim no)
+		(at 157.48 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a93ad27a-3202-402d-bff2-f17d7eb065f0")
+	)
+	(text "<-- 20 cm -->"
+		(exclude_from_sim no)
+		(at 40.64 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9441514-28f1-4859-b40c-0689951d4f2e")
+	)
+	(text "Harness_10"
+		(exclude_from_sim no)
+		(at 100.33 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae7a00af-07d1-4d13-9e37-caeebfe6e2a8")
+	)
+	(text "Harness_2"
+		(exclude_from_sim no)
+		(at 44.45 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc079298-d4ac-4f47-9cfb-63e97276fe6b")
+	)
+	(text "Harness_16"
+		(exclude_from_sim no)
+		(at 214.63 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6cdb956-0d0d-490b-9887-425763a3a11e")
+	)
+	(text "<-- 30 cm -->"
+		(exclude_from_sim no)
+		(at 43.18 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d87aab74-a1d6-4d20-a68f-1ac69fc77a1d")
+	)
+	(text "<-- 30 cm -->"
+		(exclude_from_sim no)
+		(at 210.82 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e828bfc0-0a9d-4964-a68f-e54675de13a5")
+	)
+	(text "Harness_9"
+		(exclude_from_sim no)
+		(at 100.33 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0727573-7b92-40c7-96d9-9c118de604b2")
+	)
+	(text "Harness_1"
+		(exclude_from_sim no)
+		(at 44.45 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f394b75e-bcf2-4cbf-a000-df2edf8a4d05")
+	)
+	(text "<-- 10 cm -->"
+		(exclude_from_sim no)
+		(at 100.33 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8dcab0d-7a42-4f3b-9437-ca7468b528b3")
+	)
+	(junction
+		(at 39.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b32e7c-e5bf-4dc8-989d-bfa68b3a0ffe")
+	)
+	(junction
+		(at 102.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ea7f5f7-378d-4f78-8fd0-3f3b8acd23a1")
+	)
+	(junction
+		(at 95.25 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11be5656-c71d-4d81-8da0-af83bb057ffc")
+	)
+	(junction
+		(at 102.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fb569a3-30be-4a38-b906-17692970935c")
+	)
+	(junction
+		(at 152.4 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32963e22-ca0b-4b8c-83ae-0b5fa9dc7cb0")
+	)
+	(junction
+		(at 100.33 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3527546d-d49f-4025-9b9f-2b30cc998efb")
+	)
+	(junction
+		(at 100.33 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4208be1f-8b11-4b9c-bc90-39033a1f867c")
+	)
+	(junction
+		(at 95.25 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d5d847-d92e-406a-81dd-55eb2f290952")
+	)
+	(junction
+		(at 97.79 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5116a02d-53f3-4cf9-a001-7918117f8ed5")
+	)
+	(junction
+		(at 41.91 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "626b8fad-b585-4001-bca5-ce9dec9a8d45")
+	)
+	(junction
+		(at 97.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e6b0ff-e6aa-41db-9320-9f88ad843be9")
+	)
+	(junction
+		(at 209.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849d8f4a-27c3-4276-8766-30ecde958e6d")
+	)
+	(junction
+		(at 102.87 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96f528ee-22da-4a38-99a1-16fb09926667")
+	)
+	(junction
+		(at 97.79 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5a4482-c905-4a65-8a4d-f68de97c3b73")
+	)
+	(junction
+		(at 100.33 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa80a7e4-1e3a-47c8-a703-3e9f13911137")
+	)
+	(junction
+		(at 95.25 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6f42a84-0e63-4a45-bc1a-12539a0d2d04")
+	)
+	(junction
+		(at 95.25 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35ed81d-5da4-445e-a931-94106fc015cc")
+	)
+	(junction
+		(at 212.09 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1f59697-5ff5-440a-8d71-f3997019c5c9")
+	)
+	(junction
+		(at 97.79 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed327668-ea82-4566-ad07-26ce7fa192a4")
+	)
+	(wire
+		(pts
+			(xy 57.15 154.94) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031ad914-3d55-47fd-9eab-86a3da7ab368")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d5cd70-a92f-45e5-94ac-25eda288398b")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad9918f-d9b4-4fae-b6ab-0acecd93ab6a")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eeb637f-6a29-404c-92c3-5a42e439d438")
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126a0575-54f3-43d6-9a90-dfafb558ec3c")
+	)
+	(wire
+		(pts
+			(xy 60.96 137.16) (xy 57.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150ae7ff-a3c4-45c3-a92f-90f0f2358a3d")
+	)
+	(wire
+		(pts
+			(xy 93.98 25.4) (xy 95.25 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159e2d60-4ffa-4aec-8ddb-5e8cc81f5dee")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187d9863-5071-418d-9a99-c6699552589b")
+	)
+	(wire
+		(pts
+			(xy 102.87 109.22) (xy 116.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202e8e55-f7fe-4a72-bc2c-f33ad8b9ed28")
+	)
+	(wire
+		(pts
+			(xy 38.1 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d32a5c-d9de-4c8a-b3fa-efc25b8b381b")
+	)
+	(wire
+		(pts
+			(xy 38.1 157.48) (xy 57.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fca2cd-5d1f-492a-87c3-472e89bc507b")
+	)
+	(wire
+		(pts
+			(xy 93.98 154.94) (xy 116.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260f5733-96b8-4b9f-8aa4-98bea8f1b6cf")
+	)
+	(wire
+		(pts
+			(xy 208.28 27.94) (xy 231.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2670de24-cf99-42b9-937b-ffbe11c2995c")
+	)
+	(wire
+		(pts
+			(xy 97.79 27.94) (xy 97.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a7cf36-6c1d-40e4-b43f-8e483b6a6a44")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a372fc0-f9ff-4562-a6fc-94247b91d3ee")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea470c5-6200-4fd4-8142-92d358e462cd")
+	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 212.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3561941e-2306-428e-a38b-c569714c28a2")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3754ac3c-07ac-401c-9df4-267ced6525b3")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a5160f-3084-46c4-8f90-bbe9520dc910")
+	)
+	(wire
+		(pts
+			(xy 93.98 147.32) (xy 116.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f2ca64-a1e3-4e56-a922-f0e7f0bb9dab")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abd2941-188f-4382-bffb-b6677f32cc1a")
+	)
+	(wire
+		(pts
+			(xy 170.18 116.84) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdf3606-0630-4309-a206-657a44140246")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2ec840-3d73-4402-a2e4-fe8a0c9ee0ac")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41492b41-9337-4b89-818d-fcb2bab7e22b")
+	)
+	(wire
+		(pts
+			(xy 57.15 132.08) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475bf1cd-c0a6-4c5d-b80f-540b829a3284")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cb738d-0ba6-4aa4-a531-3ddf0ca783f1")
+	)
+	(wire
+		(pts
+			(xy 102.87 55.88) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cd5b9a-e707-48ce-82d3-aede1baa56ca")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494ef19b-c69f-4db7-8d71-4affbef82165")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a73fbc5-d635-48dc-9ddf-a3da3c6813b9")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a968f94-ff5f-4e7b-9fc3-1fcefffd0233")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b68b08a-02f4-40ad-bfc8-48eee6360ce7")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bebf1d9-f6cd-4e69-8975-602fde8a6a75")
+	)
+	(wire
+		(pts
+			(xy 57.15 137.16) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ed1517-dadc-41e8-be34-703dce155eb2")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.22) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560df0a3-04a1-4076-831a-5a7e7c467b18")
+	)
+	(wire
+		(pts
+			(xy 41.91 106.68) (xy 41.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5750a3f8-a415-4d8f-8c24-fa790eddd7de")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c57919-b0b9-4372-988c-40a5773efd87")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 170.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588f27d2-d68d-4e90-a09c-e3f7b7338cdf")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4a0c38-f0a3-4086-a270-c3adf4547223")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bdceee-4833-483f-84b5-d7e334a36c76")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66806d81-c9e2-42b6-a6bc-8037bb9cc367")
+	)
+	(wire
+		(pts
+			(xy 151.13 142.24) (xy 152.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dadf59-c02a-4ede-9351-654b832cdcc6")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.24) (xy 231.14 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c5ff03-aada-4b7d-ad27-56e2b8dc03f2")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0274b5-73db-44df-887c-aef661698525")
+	)
+	(wire
+		(pts
+			(xy 38.1 182.88) (xy 60.96 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4ef393-8dd5-4d4f-adcd-b920ad40efe1")
+	)
+	(wire
+		(pts
+			(xy 57.15 129.54) (xy 57.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebdaad1-62bd-4edf-87b8-d8c43429cb30")
+	)
+	(wire
+		(pts
+			(xy 39.37 96.52) (xy 60.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbe50ee-6608-4680-8ab1-418239476ebf")
+	)
+	(wire
+		(pts
+			(xy 93.98 149.86) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71428578-a687-4b9e-b437-fc68b975f4c7")
+	)
+	(wire
+		(pts
+			(xy 38.1 180.34) (xy 60.96 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7215d7d6-d080-4098-8474-f543a963f14b")
+	)
+	(wire
+		(pts
+			(xy 100.33 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723dd8a9-6103-4729-b69a-5c93beca5a1b")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724d3200-26d3-4479-9de5-e69051b07e19")
+	)
+	(wire
+		(pts
+			(xy 208.28 25.4) (xy 231.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751a1237-1677-486a-82c5-2bfd8012e716")
+	)
+	(wire
+		(pts
+			(xy 226.06 77.47) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76256660-b5fd-4032-bad5-faa5a8e8a969")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 231.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76804fd5-a456-4e2f-a110-dc33c5100a3c")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 116.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777cc3b7-1f50-4d35-bec5-dc7e1f707d3d")
+	)
+	(wire
+		(pts
+			(xy 60.96 162.56) (xy 57.15 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798cc47d-e911-4e6a-b70e-8b24ffb6ef50")
+	)
+	(wire
+		(pts
+			(xy 93.98 180.34) (xy 116.84 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3a9409-3baa-4576-a9e1-0ad39320a2c5")
+	)
+	(wire
+		(pts
+			(xy 231.14 119.38) (xy 209.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8e2ab9-f100-4238-8437-fc36a4f33c65")
+	)
+	(wire
+		(pts
+			(xy 208.28 30.48) (xy 231.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812fb22f-2c3c-4436-bfc4-457ead84fc0f")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fc1cda-c60f-4939-8658-0258c1dd5d40")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83cafa91-5354-484e-a368-54007da9851d")
+	)
+	(wire
+		(pts
+			(xy 214.63 76.2) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871edc6e-5139-4fd2-a8cb-f6cc2d56a7b0")
+	)
+	(wire
+		(pts
+			(xy 60.96 109.22) (xy 39.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876cfdcf-cada-4b2b-95ca-80977fb96daf")
+	)
+	(wire
+		(pts
+			(xy 57.15 154.94) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c271d8-7118-4335-ad71-f0943d00dcdb")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 173.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883d9963-7837-4204-b5c8-4a6f8a0affb0")
+	)
+	(wire
+		(pts
+			(xy 93.98 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89994a49-7cf1-41ca-ad0e-c3753d3f9857")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 41.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfb2716-cd0d-4052-9f0b-a85fbfca1189")
+	)
+	(wire
+		(pts
+			(xy 41.91 93.98) (xy 60.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6c20a1-8700-426a-b181-638a79860e22")
+	)
+	(wire
+		(pts
+			(xy 100.33 53.34) (xy 100.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945599f8-cba4-49dd-a1c4-5c1cb1badd9a")
+	)
+	(wire
+		(pts
+			(xy 151.13 139.7) (xy 173.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9502a3a2-27c6-4dfc-9e96-66fb0bdc2efa")
+	)
+	(wire
+		(pts
+			(xy 102.87 127) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95463cd4-b774-4fef-8c70-ae18ff4fcacd")
+	)
+	(wire
+		(pts
+			(xy 97.79 27.94) (xy 93.98 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958637d6-e96f-4406-90a4-32b08c02147e")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.92) (xy 97.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ed642f-e3d0-49b0-86c4-ea02df30c441")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 231.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965ae61e-f727-4826-af78-a47830a2a7d7")
+	)
+	(wire
+		(pts
+			(xy 38.1 160.02) (xy 57.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c95d6c-29d2-44d6-9ae4-8b16bd11b98e")
+	)
+	(wire
+		(pts
+			(xy 93.98 182.88) (xy 116.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99274854-5cb8-4bfa-9af6-b8bec10f8551")
+	)
+	(wire
+		(pts
+			(xy 39.37 96.52) (xy 39.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aba6da9-058a-45dc-bbc5-5c9ed4139412")
+	)
+	(wire
+		(pts
+			(xy 228.6 81.28) (xy 231.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5a2f72-21bb-43df-908e-07816767243e")
+	)
+	(wire
+		(pts
+			(xy 212.09 104.14) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8b6d75-f2ab-4d7c-a40f-c0700232ab68")
+	)
+	(wire
+		(pts
+			(xy 57.15 129.54) (xy 60.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a117d98f-7293-46a1-912f-f97cf59f83bb")
+	)
+	(wire
+		(pts
+			(xy 208.28 139.7) (xy 231.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f2445b-98f7-4fa6-8253-aa12f2207ac8")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a865fedf-58f3-4d35-89ee-4acb61afa8ac")
+	)
+	(wire
+		(pts
+			(xy 57.15 162.56) (xy 57.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4cfca6-6e71-4fd7-8d6e-8c2ff42693d4")
+	)
+	(wire
+		(pts
+			(xy 38.1 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8e6925-478a-42db-89db-ccf183b1af95")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 228.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1d33d9-cb11-4dfa-af2e-d578ced36245")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 173.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af768364-75dc-4d4e-ac92-0aae28db0b6d")
+	)
+	(wire
+		(pts
+			(xy 170.18 111.76) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afaa9fa7-3dc4-4b44-8344-8eafadb7ffa4")
+	)
+	(wire
+		(pts
+			(xy 100.33 124.46) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b092d066-fb54-451f-9e20-eb6611e44db9")
+	)
+	(wire
+		(pts
+			(xy 223.52 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29d6ad1-1109-4750-82d8-03f1663bb68f")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2df64d5-ff73-4b2a-99e1-90c25ce91d5e")
+	)
+	(wire
+		(pts
+			(xy 151.13 58.42) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30b373f-19ec-4dbd-ab12-2f92ef574a1b")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3688b2d-70ba-4729-8033-0fccdddf3bc6")
+	)
+	(wire
+		(pts
+			(xy 41.91 93.98) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39736fb-73ab-4bf6-9aa0-b177bda3e389")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 97.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4136bdf-d3fd-48ec-af0e-5706c05c8a5c")
+	)
+	(wire
+		(pts
+			(xy 95.25 25.4) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cb9356-4bd2-4b3d-a6ab-17c7c7b4ecdd")
+	)
+	(wire
+		(pts
+			(xy 38.1 71.12) (xy 60.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fe988b-d962-4b86-97bf-1c2afb883f63")
+	)
+	(wire
+		(pts
+			(xy 95.25 48.26) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5e8b82-8d78-466e-9c6a-8cf81d354dcc")
+	)
+	(wire
+		(pts
+			(xy 39.37 96.52) (xy 38.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6fa4b5-4f5c-417e-81c4-de9202a6ff1a")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce0a376-b27f-4a01-862b-b6d66d8ec5ca")
+	)
+	(wire
+		(pts
+			(xy 151.13 81.28) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bceb2c0e-8f0d-4b1c-bd30-eb4c333a6945")
+	)
+	(wire
+		(pts
+			(xy 102.87 55.88) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18214ee-2405-41c3-ae97-55cc99f98c36")
+	)
+	(wire
+		(pts
+			(xy 212.09 116.84) (xy 212.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bc4f84-0828-4337-80ca-a3891abc0920")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ed13d8-cdd9-4386-98b0-fd1d9ac5e75a")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab02615-0299-4d47-800e-834a7fe0a4e3")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9e4d94-787c-4732-8dca-9daa2aebf9d6")
+	)
+	(wire
+		(pts
+			(xy 223.52 80.01) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce461973-55ac-480a-9e8c-2303b1017fa0")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 97.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf45d39e-a405-4fb0-ac79-daae6d661d91")
+	)
+	(wire
+		(pts
+			(xy 212.09 80.01) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a32102-49c0-4c74-a60d-738bb15b8796")
+	)
+	(wire
+		(pts
+			(xy 152.4 137.16) (xy 173.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c53ca-d0b1-4288-b88d-2271fe30da88")
+	)
+	(wire
+		(pts
+			(xy 100.33 124.46) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1ef008-6e2f-47a8-acca-9fe218b9094f")
+	)
+	(wire
+		(pts
+			(xy 212.09 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddd81f0-cdde-4c68-bf7e-438966ee1a1e")
+	)
+	(wire
+		(pts
+			(xy 223.52 80.01) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25959c6-63f2-4658-a042-1556bd694552")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e310bad6-42b4-4908-b48d-3f2b363393dd")
+	)
+	(wire
+		(pts
+			(xy 93.98 175.26) (xy 116.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e538e72d-3908-49a8-b6f1-ca542bc5cd0b")
+	)
+	(wire
+		(pts
+			(xy 212.09 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e689fa04-3593-4af6-b096-ad1f766c1732")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91bf14d-a35a-41f0-9bd8-3cfc7a1f6a1e")
+	)
+	(wire
+		(pts
+			(xy 102.87 109.22) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed791cf-38cb-4773-9a1f-346e178813e6")
+	)
+	(wire
+		(pts
+			(xy 226.06 77.47) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f075c09e-d1ca-41ee-89ed-668fd1f0c592")
+	)
+	(wire
+		(pts
+			(xy 93.98 177.8) (xy 116.84 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7af3364-d8b2-4b55-95dc-5127de97e134")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fd2592-3b80-40b9-bc23-a2b4372cc0b9")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 231.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1fd059-dbc2-44ab-ab57-30e778a1fdc9")
+	)
+	(wire
+		(pts
+			(xy 95.25 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaecb52-29db-46ec-b4d8-ed662b190b0e")
+	)
+	(wire
+		(pts
+			(xy 97.79 104.14) (xy 97.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb396dd-8fe8-4670-a30e-de39a8280cfe")
+	)
+	(wire
+		(pts
+			(xy 38.1 27.94) (xy 60.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd76d99f-09dd-4256-b854-32d048af11b6")
+	)
+	(wire
+		(pts
+			(xy 151.13 137.16) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4a86ce-d4ee-4d4f-8951-5322342e96a4")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff968d04-2da4-4535-a3e4-2e30f8a94dae")
+	)
+	(label "GND"
+		(at 160.02 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0023928f-dcc1-47ac-931e-549c72c62907")
+	)
+	(label "VDD"
+		(at 160.02 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "075b8752-cba1-4102-8860-957c9685aebf")
+	)
+	(label "VDD"
+		(at 46.99 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c3f5b8b-004e-471e-88e7-cd94ce9994aa")
+	)
+	(label "GND"
+		(at 46.99 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14652f3e-a575-42e9-bf39-f034eecb6826")
+	)
+	(label "GND"
+		(at 46.99 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "264dc034-4689-44ba-9c00-5ff141b36246")
+	)
+	(label "GND"
+		(at 160.02 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a381b8e-79e3-49e4-a78a-d5e7211df51d")
+	)
+	(label "VDD"
+		(at 217.17 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "390128fc-36f3-4345-be2b-7e1f3ee22823")
+	)
+	(label "GND"
+		(at 217.17 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39e61bbc-0a71-4b7e-bf48-3e86fc9b055d")
+	)
+	(label "VDD"
+		(at 46.99 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "442b2d93-0bfc-45e9-aaed-9248f3e2c442")
+	)
+	(label "CAN_H"
+		(at 102.87 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a6d5c79-88d4-4461-97a0-8fbf0362e053")
+	)
+	(label "VDD"
+		(at 160.02 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b3c89ee-391a-43e2-bd9f-6fd0885578f9")
+	)
+	(label "GND"
+		(at 160.02 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b473b8a-50be-4618-bd15-7130f0724151")
+	)
+	(label "SIG"
+		(at 217.17 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "524c8992-6df1-4074-8b89-d2f74b7ec6d4")
+	)
+	(label "GND"
+		(at 224.79 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5479240d-6f8f-43fe-96f0-96cbf9baa223")
+	)
+	(label "GND"
+		(at 110.49 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "564164cf-98b2-41b7-96cd-73873ddbb63c")
+	)
+	(label "VDD"
+		(at 46.99 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "575707a9-09f4-4133-81ab-e9bc25ecd24c")
+	)
+	(label "GND"
+		(at 217.17 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "631ce79d-0120-461d-9c3f-ff723ba0fab3")
+	)
+	(label "SIG"
+		(at 217.17 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6501d329-b968-46a7-8496-51cb2f5ed4d4")
+	)
+	(label "GND"
+		(at 160.02 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "675c5f11-3b23-48d2-b017-885f6a242b04")
+	)
+	(label "GND"
+		(at 46.99 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ccd726e-92ab-4908-903f-473615f0c7a0")
+	)
+	(label "GND"
+		(at 160.02 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70c54ece-2c6d-444c-8fbd-cce4f24fcfd1")
+	)
+	(label "GND"
+		(at 46.99 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78e9b31f-44ee-4471-bf33-aeb09f98bf04")
+	)
+	(label "GND"
+		(at 217.17 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79a1bb40-737a-4fdc-ba9f-52ad36f07b63")
+	)
+	(label "SIG"
+		(at 217.17 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b6d33db-8be6-4b73-8823-cea228bddbd6")
+	)
+	(label "VDD"
+		(at 160.02 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bdac90e-63e9-44ce-9161-e5b6072e6727")
+	)
+	(label "CAN_H"
+		(at 160.02 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80467f13-9b49-438d-9b25-60ca59d0df21")
+	)
+	(label "VDD"
+		(at 217.17 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "841b0fcb-d72c-4b02-a412-80c310ce11e8")
+	)
+	(label "CAN_L"
+		(at 102.87 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8449d5d0-e5e6-4fe2-ab4b-e4b10d4649b6")
+	)
+	(label "VDD"
+		(at 46.99 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e27ff3c-5bc8-4a17-b85e-ad95441d332e")
+	)
+	(label "VDD"
+		(at 160.02 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99651a02-8fbe-4c09-9e59-f92fb9773ba4")
+	)
+	(label "VDD"
+		(at 160.02 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99cfbbea-ee79-44b2-98af-836bf340f3b7")
+	)
+	(label "GND"
+		(at 102.87 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7dfd28-052d-470f-9900-124e80c6e89f")
+	)
+	(label "VDD"
+		(at 46.99 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f799cca-749f-4083-97af-785671234c8d")
+	)
+	(label "CAN_L"
+		(at 102.87 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2422dd4-8954-487f-b339-a5f11fa55f31")
+	)
+	(label "VDD"
+		(at 46.99 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7cca9a1-fbaa-4263-b73e-0e497d63b822")
+	)
+	(label "CAN_H"
+		(at 110.49 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b30bf877-29de-42b8-b2dc-6d055224d685")
+	)
+	(label "VDD"
+		(at 102.87 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9715494-b7d2-4103-9fda-7426a68631cc")
+	)
+	(label "CAN_L"
+		(at 160.02 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be56cc57-cb99-459c-93cf-a75627a83685")
+	)
+	(label "GND"
+		(at 46.99 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7005ff0-c5e5-45d4-9000-3b71bf6a1301")
+	)
+	(label "VDD"
+		(at 102.87 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8dc6e24-4459-4c67-8a17-f52c20924d9b")
+	)
+	(label "GND"
+		(at 46.99 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfa4a421-6e22-4a5c-a439-ac9306184a01")
+	)
+	(label "VDD"
+		(at 224.79 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d051db27-2fcf-4827-b02f-d302c292d563")
+	)
+	(label "GND"
+		(at 46.99 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1b10d22-e9f1-45f9-832b-3caae4408ee6")
+	)
+	(label "VDD"
+		(at 46.99 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7f678c1-0853-4305-afd9-d656b3158866")
+	)
+	(label "VCC"
+		(at 217.17 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb0543d5-3f25-4c7e-bdcd-f8c987c8f972")
+	)
+	(label "GND"
+		(at 217.17 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edfd0842-bb4c-48a2-bf95-b8a601ff3d45")
+	)
+	(label "VDD"
+		(at 110.49 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef93bcb9-ddeb-4fec-baee-80cc6f8eeb14")
+	)
+	(label "CAN_L"
+		(at 110.49 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0b9d8cc-cb45-4f7f-8cc9-dc1347623a8b")
+	)
+	(label "GND"
+		(at 102.87 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7b77a4d-8cba-4868-8020-c1eaa306f75a")
+	)
+	(label "CAN_H"
+		(at 102.87 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9a500a3-6b7a-4f6c-a814-cb585f159ce7")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0170b900-3324-4c65-9f22-a726112cf2f5")
+		(property "Reference" "CN31"
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c87f0ce-1b4a-45be-b5be-08b05b2379f0")
+		)
+		(pin "2"
+			(uuid "6cf986bc-05c3-44cd-a9c9-6a0c2685b114")
+		)
+		(pin "3"
+			(uuid "e5618800-19b9-4462-944e-4892aa954b41")
+		)
+		(pin "4"
+			(uuid "583598dc-12be-4771-a302-1a3b00548094")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 88.9 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c5e944-a49d-418e-bb2f-75228cf123e2")
+		(property "Reference" "CN21"
+			(at 91.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28dc012f-f22e-467c-9416-c65d39bd46a0")
+		)
+		(pin "2"
+			(uuid "3366a55f-a5fc-4d7e-84a8-637b069a79d6")
+		)
+		(pin "3"
+			(uuid "71d43db2-1d53-4525-b4e2-e88fcc70329b")
+		)
+		(pin "4"
+			(uuid "805439f9-1f30-4b37-85c3-ea734f08c516")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09aff2eb-cb84-4570-bc6d-a34c7e3dac2d")
+		(property "Reference" "T2"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade (8mm)"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "1"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d97cf7a-06c2-4ec8-a61c-7846531658f1")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ae8213c-5bee-4425-bbeb-fa6594465bb2")
+		(property "Reference" "CN11"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 33.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90e722e4-0e30-4a57-afc2-c3ce18bede73")
+		)
+		(pin "2"
+			(uuid "32a48bea-352a-4587-b0d5-7a3b26714572")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.22 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "193655a4-04a4-404b-aac2-d53b31594cd7")
+		(property "Reference" "CN56"
+			(at 233.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro Fit (F)"
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0373b0ca-a94e-40ea-a02f-8e02c63650ce")
+		)
+		(pin "2"
+			(uuid "ff752e7d-ab49-4262-a77c-68a3f02180cb")
+		)
+		(pin "3"
+			(uuid "77cc5384-9fa7-4c8d-8842-dd52f203c9e3")
+		)
+		(pin "4"
+			(uuid "21757236-d5f2-4031-9f37-17a214d08135")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 179.07 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d52371d-b2df-40f4-848f-2ecf4943e485")
+		(property "Reference" "T5"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade (6.3mm)"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "1"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ff3102-b250-4693-9b95-9fec1d80fda4")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "T5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 179.07 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f5da936-b3df-4124-9523-947af5d24273")
+		(property "Reference" "CN26"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8912c105-a7d2-4376-8bfa-bd82c88f87d0")
+		)
+		(pin "2"
+			(uuid "34392055-3b85-4a0b-acb5-9007426b52e2")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2627c9ab-963a-4d23-8165-88e81d6473e7")
+		(property "Reference" "CN35"
+			(at 63.5 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 59.69 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 66.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c15f8a02-aaf9-4d00-868b-7a8c71a071be")
+		)
+		(pin "2"
+			(uuid "12a325e1-37be-42e2-960a-c608c164a5d4")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 236.22 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27d7db36-ec30-4f2e-9464-9c98d4a83452")
+		(property "Reference" "CN51"
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro Fit (F)"
+			(at 229.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d562e65-46e5-4a02-86d6-4ca73b0ac50c")
+		)
+		(pin "2"
+			(uuid "544cf2d4-55c4-402b-93a2-471eb2b76158")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 203.2 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30bbdaf8-8115-40eb-8145-de020eff2e34")
+		(property "Reference" "CN40"
+			(at 205.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro Fit (F)"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 203.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d64bc1d0-cd0f-41b1-aca1-cecc3b9debfc")
+		)
+		(pin "2"
+			(uuid "aa3c82d8-1249-4690-8cbb-5fee39dfa8dc")
+		)
+		(pin "3"
+			(uuid "44a0ba36-dded-4078-9041-ae0a2a25fb7f")
+		)
+		(pin "4"
+			(uuid "759f60d2-94af-47f8-929d-2a1337f184f1")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43227afa-fcb0-4c72-9dbe-a5991d3b0d6d")
+		(property "Reference" "CN9"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "352df2f2-9a3e-4834-b257-0a78ee203aae")
+		)
+		(pin "2"
+			(uuid "429104b2-725a-4d8c-8f4f-1b08be1d5056")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49817f36-f8a6-4b1c-a2c2-4c85e92c8f3f")
+		(property "Reference" "CN3"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 66.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1f02b6f-0adb-45d1-9c54-048c9280c95d")
+		)
+		(pin "2"
+			(uuid "4ad93308-279d-415e-9197-aed1f0252169")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 179.07 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aa101db-47ae-47b0-a19f-6e43c0f2e90b")
+		(property "Reference" "T6"
+			(at 181.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade (6.3mm)"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "1"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd039af5-efd6-415a-a546-ad379221b47a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "T6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 179.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5013a651-ada1-4d5d-bbc7-b428602e2d0f")
+		(property "Reference" "CN32"
+			(at 176.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f34cde6-25ff-4bb8-98f1-6d40ad775ae6")
+		)
+		(pin "2"
+			(uuid "9f1e5e65-66a1-45fb-bba8-b3514f13b5ef")
+		)
+		(pin "3"
+			(uuid "0caf339c-992f-4b96-8bdd-be13b15acd63")
+		)
+		(pin "4"
+			(uuid "e975d440-f9e1-4e41-a54e-a76902465364")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 203.2 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5678cb67-81a5-49f2-a7e4-9d51a1999c0b")
+		(property "Reference" "CN57"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (F)"
+			(at 203.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5aafbe8-c200-4cee-aceb-919a284037c6")
+		)
+		(pin "2"
+			(uuid "67cf5ebf-33a1-49b0-ae7f-26451ebc4f58")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56d6c876-9959-42e5-93a2-b678c707cdf3")
+		(property "Reference" "CN20"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a09905d-96f4-44df-80ce-ca14bc9dae54")
+		)
+		(pin "2"
+			(uuid "eab2a495-9c40-4b66-a2d6-2131cf991010")
+		)
+		(pin "3"
+			(uuid "256f75a8-0356-45f4-9ad1-62fc9ea9535b")
+		)
+		(pin "4"
+			(uuid "1563f4da-d898-4d15-a793-85b538fbcb8b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a33ff60-5e72-4e8d-8b0d-54248a426c39")
+		(property "Reference" "CN19"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97060a66-f5eb-450d-96e2-4d6b1f0cf0b2")
+		)
+		(pin "2"
+			(uuid "a426a866-5423-491b-8758-0784a25afe6f")
+		)
+		(pin "3"
+			(uuid "bc08c061-1e3f-4a0f-82f8-b3feff3c7201")
+		)
+		(pin "4"
+			(uuid "dc3ed38f-17d9-471a-b233-df6a3b43ed0f")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb6f804-f329-4da9-bbd2-b811bfd2311e")
+		(property "Reference" "CN37"
+			(at 119.38 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 115.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95111689-fa05-4faf-bff6-6840fd7a5289")
+		)
+		(pin "2"
+			(uuid "9a010a65-c1ce-4892-910f-22f94aeff2f1")
+		)
+		(pin "3"
+			(uuid "00b22ddf-da58-4bbc-bcae-d22a73193486")
+		)
+		(pin "4"
+			(uuid "722ecbe9-44a0-4b17-8066-c5f53995bbcb")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eb83d12-dfec-475a-96ba-77b9269eceb8")
+		(property "Reference" "CN16"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33eac4d4-d531-4d4a-b3a3-73a7dccd4a6b")
+		)
+		(pin "2"
+			(uuid "dddec8dc-a24e-4234-8396-f005bc655b10")
+		)
+		(pin "3"
+			(uuid "c8cc7736-cdde-46c8-a565-093dc92229f5")
+		)
+		(pin "4"
+			(uuid "778cb2ac-1336-4df7-8b87-114b5fbef07b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 88.9 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70c8fd40-df63-4b89-9b26-de3d0c18da4b")
+		(property "Reference" "CN15"
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1ba8175-762b-47f6-966d-f8cc5ed80e86")
+		)
+		(pin "2"
+			(uuid "94cd701b-e361-4ac0-b0e5-e757669da1d3")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "730814fb-aa66-4593-ac5c-68f51bf918fa")
+		(property "Reference" "CN7"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "411b46eb-a27f-461c-a881-1cef83f674b1")
+		)
+		(pin "2"
+			(uuid "89e804ac-868b-4c67-9c18-de966160890a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73bf80e3-3e82-4295-9a5f-243f1067052f")
+		(property "Reference" "CN17"
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b9ae62f-40a9-42b9-8ecf-059fce9f5bd6")
+		)
+		(pin "2"
+			(uuid "bc52337c-2bc1-4d01-a984-310e3bd7423e")
+		)
+		(pin "3"
+			(uuid "18a56696-273f-4ee3-a6df-461a4a7df3da")
+		)
+		(pin "4"
+			(uuid "cbcbc2ec-237d-4b77-b9eb-20e68318058a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "778c34ce-159c-4a3c-bcf7-c4846371d113")
+		(property "Reference" "T3"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade (8mm)"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "1"
+			(at 66.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de978600-8439-4473-9332-e81e1b26a53a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.22 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81ea4831-dab4-4fc4-8dd9-159bdaecca25")
+		(property "Reference" "CN61"
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 229.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7331d35-f02e-4209-a587-1fb6ecadd3fa")
+		)
+		(pin "2"
+			(uuid "7946d1c9-b16c-4917-a913-87b016805e2e")
+		)
+		(pin "3"
+			(uuid "3d854cf5-88b4-4485-8430-b100ae44c039")
+		)
+		(pin "4"
+			(uuid "06f1fc43-bda7-4d3b-a972-31e4648a0541")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 203.2 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8335ff4b-7e9c-4583-88fd-5904f87da80f")
+		(property "Reference" "CN43"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro Fit (F)"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c125ce62-5da4-4621-9975-c731183bfa80")
+		)
+		(pin "2"
+			(uuid "d77e6e8e-54e8-4c09-aea3-76aba4028471")
+		)
+		(pin "3"
+			(uuid "52984834-6a46-4373-955f-3f4a3c7bc9e2")
+		)
+		(pin "4"
+			(uuid "60ee9dc0-0c10-4d94-9a9c-2f824de4e941")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 179.07 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aff4ac9-ddc0-4f87-9595-ac3c2a9d401f")
+		(property "Reference" "CN47"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d44d1f-86c1-4943-9850-089449c8749f")
+		)
+		(pin "2"
+			(uuid "c9133ad1-fbb0-492c-baa4-43f074178136")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 88.9 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96014d8c-544b-491d-8fb1-a0c1fcd9c31a")
+		(property "Reference" "CN22"
+			(at 91.44 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 95.25 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e4066a6-f1f8-4776-91e5-fb454e720d4e")
+		)
+		(pin "2"
+			(uuid "aaa8c129-1b50-4c8e-af01-a870eae75d5f")
+		)
+		(pin "3"
+			(uuid "a33549d3-a424-4b4d-ba99-cc6ba4f269d0")
+		)
+		(pin "4"
+			(uuid "f904c525-fda6-44ef-8776-627c66257029")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 146.05 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b82556-18c0-4cc0-b44b-6abb5e557707")
+		(property "Reference" "CN38"
+			(at 148.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 152.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "3"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d9b3e0-281e-4969-8cc7-abde3ba7b039")
+		)
+		(pin "2"
+			(uuid "178dfe75-5b1c-45ea-9367-fcd500ae5b26")
+		)
+		(pin "3"
+			(uuid "150e489e-c8d9-46b2-a676-c1c948540048")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 236.22 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c318e91-065b-40a9-950b-9683cf0c115b")
+		(property "Reference" "CN58"
+			(at 233.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 229.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da825d45-8786-407b-a291-0b0d8c753059")
+		)
+		(pin "2"
+			(uuid "f317b037-d8ba-4047-8dd8-f37fdad0a168")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 146.05 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a46a0cc4-7701-4e56-b7cc-677911474f1a")
+		(property "Reference" "CN24"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f93cf6eb-f719-4458-a7e9-33073deeecf5")
+		)
+		(pin "2"
+			(uuid "93effad4-fd34-4f7b-b35e-2eedab36cab7")
+		)
+		(pin "3"
+			(uuid "4205adf3-e0f0-4c02-91d3-f41eeb61f554")
+		)
+		(pin "4"
+			(uuid "cfae8d44-a026-46b5-a476-04f55cbde23f")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add57a0f-87f8-4f68-89d3-d6755e0adf11")
+		(property "Reference" "CN18"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0ba6667-a9da-4b53-a0f9-a3f5c12680e3")
+		)
+		(pin "2"
+			(uuid "0a667705-6147-4225-a721-bb579f9e648f")
+		)
+		(pin "3"
+			(uuid "f9569f04-6cef-4531-ba9d-915f46972629")
+		)
+		(pin "4"
+			(uuid "2a77e6c2-c06e-426c-89b1-035864768f3b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 203.2 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b535a801-0034-4d8d-8065-262155711a1b")
+		(property "Reference" "CN60"
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mini Fit (M)"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8edb99a3-06fa-4a3a-8ad3-c4fdc27200a0")
+		)
+		(pin "2"
+			(uuid "2af824b7-419a-4f24-87a0-84f6a19eb913")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba3cc48c-244e-451e-9105-99bbaca9727a")
+		(property "Reference" "CN2"
+			(at 33.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (F)"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def82972-eb14-4612-8ce9-894997b9e07a")
+		)
+		(pin "2"
+			(uuid "2921195c-012e-4350-aa5a-3f52b17abf65")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 146.05 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c24327a5-451e-4f1a-b102-a7828f675a1f")
+		(property "Reference" "CN25"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "412e1bfb-3d6a-4dbb-a311-6963213d3ea7")
+		)
+		(pin "2"
+			(uuid "d3414045-2386-459d-9568-1534e8fa132b")
+		)
+		(pin "3"
+			(uuid "78376f86-6b9d-461b-935d-c5da3f7f9894")
+		)
+		(pin "4"
+			(uuid "cee26d94-7d20-4f51-b31d-d8b4c69cdd77")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 236.22 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2914ac1-b2f2-4968-b9ee-5a3ee65358f2")
+		(property "Reference" "CN52"
+			(at 233.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MODU (F)"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf5f925-4a85-4132-b310-2893fcf43568")
+		)
+		(pin "2"
+			(uuid "0bf03a2b-9ad3-48ec-9663-51ab6be44d8a")
+		)
+		(pin "3"
+			(uuid "5962c2d4-935a-465b-bd83-16fa7f22924d")
+		)
+		(pin "4"
+			(uuid "097dd4dd-fece-4f97-bb79-4b96761f588f")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 203.2 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8321feb-c9bb-48d5-a847-9a6b13fc74e7")
+		(property "Reference" "CN45"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro Fit (F)"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824fb68f-10fb-4046-a3a9-05c865a6b621")
+		)
+		(pin "2"
+			(uuid "fc2a9015-9da3-4f7b-bbc1-bc1ee66f8ed3")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 146.05 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca756bf5-0f3a-422e-80d1-8341d048261e")
+		(property "Reference" "CN23"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77ffba3f-cb9f-4e3d-95b7-c316e7ca254e")
+		)
+		(pin "2"
+			(uuid "17643f1d-4214-41de-8159-5ee08f3d821f")
+		)
+		(pin "3"
+			(uuid "8205020b-459b-465e-b2c4-0c6bf933af45")
+		)
+		(pin "4"
+			(uuid "d2eb99fe-e54f-4428-8b0a-5c2c3b03db29")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca9b9b3b-89cf-4096-83de-9515453c370a")
+		(property "Reference" "CN4"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "038422d3-f27a-4966-bbd1-4eae3ae3ec11")
+		)
+		(pin "2"
+			(uuid "95a1a8d5-72e1-471b-a805-9882c800f76c")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d24be4ef-b100-4dda-8303-0cda3402ec41")
+		(property "Reference" "CN8"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (F)"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80442a5c-af3d-4515-a1d2-8e1af642098c")
+		)
+		(pin "2"
+			(uuid "8047a7b4-89cf-415f-98de-5cebcb10b17b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d84fd301-2253-40a8-88e6-b2a1ebda951c")
+		(property "Reference" "CN10"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (F)"
+			(at 33.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4009d79-791f-401e-b442-1368d57bc10d")
+		)
+		(pin "2"
+			(uuid "369982ca-263e-43d5-acac-b18b8f4df496")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.05 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9666091-d05c-4fe7-a9b4-fb905908979c")
+		(property "Reference" "CN29"
+			(at 148.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca390c1-75c4-44a1-8c32-352680e932ed")
+		)
+		(pin "2"
+			(uuid "2b08751c-084a-4644-859d-e0cf2ab4a9b0")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da91e14e-b79a-444c-9a57-e7c0409063cc")
+		(property "Reference" "T1"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade (8mm)"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "1"
+			(at 66.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf310e32-9cfb-4d33-a7e2-e0a1d9fc23f9")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa8e182-7c1c-4afa-bd01-45b8f41799a9")
+		(property "Reference" "CN6"
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 33.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "191c9fd5-96aa-4054-b9c7-9dafa0899747")
+		)
+		(pin "2"
+			(uuid "e6a97569-c035-4e79-b619-93ab5553f46c")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec0f23ea-c80c-4b43-8b12-f0cfd1d53b5e")
+		(property "Reference" "CN12"
+			(at 33.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hy-Lok (F)"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7ad7de6-fab9-4a50-82fc-59097a25a63f")
+		)
+		(pin "2"
+			(uuid "e839d640-b0a6-41e9-b977-df5c3b2f3005")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec65cf5a-1fa7-47cb-8052-7ab18b022ae4")
+		(property "Reference" "CN14"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed4ea43d-1c1b-45d5-9714-b442e379cee8")
+		)
+		(pin "2"
+			(uuid "6d7523ba-a5f2-4ce9-aa65-084d0eb0b2d7")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 66.04 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eecaddbe-a6d0-4e52-b7bb-b7c3839308bb")
+		(property "Reference" "CN5"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03c8783-c5b5-499f-b991-623850ada7d3")
+		)
+		(pin "2"
+			(uuid "cf681cc6-1884-4e9d-b036-88f9ea470bf0")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 179.07 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f535e907-4f05-48c8-a294-f9eb3d022f54")
+		(property "Reference" "CN54"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hy-Lok (M)"
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c373d3ca-db46-4928-948d-e7a76baf1dc4")
+		)
+		(pin "2"
+			(uuid "b90ef150-2575-43fe-b263-e29e617331b0")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc9ad50-6ac1-40d9-8c51-280a3d65edf6")
+		(property "Reference" "T4"
+			(at 68.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spade (8mm)"
+			(at 58.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "1"
+			(at 66.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84514135-e09c-417b-b37c-afdfe30002e2")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 236.22 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe49c60d-4309-437d-8e1e-1075971f0c66")
+		(property "Reference" "CN59"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mini Fit (F)"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "730bd897-d255-4c22-b383-28e5621bcd1b")
+		)
+		(pin "2"
+			(uuid "9c72e219-cd8b-4460-9f81-9da0894cb657")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad/e1cf4069-bad1-4de0-9a7d-f27fff694409"
+					(reference "CN59")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

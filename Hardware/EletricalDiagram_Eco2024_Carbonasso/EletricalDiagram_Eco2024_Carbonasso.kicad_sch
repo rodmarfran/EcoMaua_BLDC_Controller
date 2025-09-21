@@ -1,0 +1,10293 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f91d540-c32f-4c45-8e2a-080b596d8aad")
+	(paper "A4")
+	(title_block
+		(title "Electrical Diagram - EcoMaua 2024 - Carbonasso")
+		(date "2024-07-11")
+		(rev "V1.0.0")
+		(company "Instituto Mauá de Tecnologia")
+	)
+	(lib_symbols
+		(symbol "EletricalDiagram_Eco2024:Coupling_Controller_Module"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Coupling_Controller_Module\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Coupling_Controller_Module_1_0"
+				(text "MOT"
+					(at 5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Coupling_Controller_Module_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PWR\nCTR"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Coupling_Motor"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Coupling_Motor\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Coupling_Motor_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Emergency_Switch"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SWT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Emergency_Switch"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Emergency_Switch_0_1"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Emergency_Switch_1_0"
+				(text "PWI"
+					(at -5.08 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "PWO"
+					(at 5.08 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Emergency_Switch_1_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 2.54)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Horn_Switch"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SWT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Horn_Switch\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Horn_Switch_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Motor_Controller_Module"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Motor_Controller_Module\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor_Controller_Module_1_0"
+				(text "MOT\nMSP\nCTR"
+					(at 5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Motor_Controller_Module_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PWM\nPWC\nTHR\nSPD"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 3.81 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -3.81 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Shell_Joulemeter"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JLM"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Shell_Joulemeter\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Shell_Joulemeter_1_0"
+				(text "PWO"
+					(at 5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Shell_Joulemeter_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PWI"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Steering_Wheel_Module"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Steering_Wheel_Module\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Steering_Wheel_Module_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Telemetry_Module"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOD"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Telemetry_Module\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Telemetry_Module_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Throttle_Accelerator"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SEN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Throttle_Accelerator\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Throttle_Accelerator_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Vehicle_Battery"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BAT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Vehicle_Battery"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Vehicle_Battery_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PWR\nCHG"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Vehicle_Horn"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HNK"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Vehicle_Horn\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Vehicle_Horn_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Wheel_Motor"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MOT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Wheel_Motor\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Wheel_Motor_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "PWR\nSPD"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EletricalDiagram_Eco2024:Wheel_Speed_Sensor"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SEN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Wheel_Speed_Sensor\n"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic_Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Wheel_Speed_Sensor_0_1"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Wheel_Speed_Sensor_1_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Eletrical_Diagram:Connector_Single"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Connector_Single"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Connector_Single_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Connector_Single_1_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 207.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03856597-adf9-4ae5-bac3-8b5bee63eadb")
+	)
+	(junction
+		(at 153.67 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7167ad-e4a5-474b-a537-ff6f2f758c82")
+	)
+	(junction
+		(at 200.66 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "113adbcd-c223-4158-a45e-61cbf0a37285")
+	)
+	(junction
+		(at 151.13 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17181086-8e2b-4129-846c-a32171566715")
+	)
+	(junction
+		(at 96.52 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "185e4ce5-b6e2-4e8f-b8f5-3b8e1906fc35")
+	)
+	(junction
+		(at 120.65 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ddf6d5a-2608-4099-90bc-df00456698a0")
+	)
+	(junction
+		(at 140.97 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ffd867a-d91c-45cc-a6a3-0cf99f9f21d8")
+	)
+	(junction
+		(at 153.67 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b0eec82-28e3-44bd-b11a-6044dae15efd")
+	)
+	(junction
+		(at 130.81 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4192a228-3d01-4442-aec7-a5642e7acf27")
+	)
+	(junction
+		(at 38.1 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ba6922-81e6-4b30-a771-86d3d696175d")
+	)
+	(junction
+		(at 222.25 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c60926-bd01-497c-9800-f056d24a77ac")
+	)
+	(junction
+		(at 107.95 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "659f5bd6-9e0d-4b40-8596-51d6783b5cbb")
+	)
+	(junction
+		(at 161.29 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee5742b-c65f-4f3d-8be2-9ce0ad40c57c")
+	)
+	(junction
+		(at 172.72 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75c9d215-a006-4dbe-846a-a847759e0556")
+	)
+	(junction
+		(at 222.25 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f207329-9ed4-4e5c-9864-b655c44da29e")
+	)
+	(junction
+		(at 38.1 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "959074e7-4dd9-498d-87f8-ad37421e96eb")
+	)
+	(junction
+		(at 140.97 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "991890a9-ec74-4545-aeff-f9fa1f152fa7")
+	)
+	(junction
+		(at 276.86 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c58e8c7-42d8-48a2-8b1d-0f6520a14783")
+	)
+	(junction
+		(at 60.96 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a32a84-f0c8-4493-91c6-d907dce1b819")
+	)
+	(junction
+		(at 175.26 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c054ad3c-e4b0-4fa7-892e-135334202ba2")
+	)
+	(junction
+		(at 132.08 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c29e0401-1ceb-46f0-ae25-0025b53cbac0")
+	)
+	(junction
+		(at 151.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c840ee79-aa3b-41f5-b2b2-c718e3053b9f")
+	)
+	(junction
+		(at 187.96 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7fc9392-9a8a-4b7a-a091-aa68b665e8b1")
+	)
+	(junction
+		(at 171.45 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de34826e-fb2a-470b-aac9-741aefbfc7f1")
+	)
+	(junction
+		(at 241.3 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0703805-ed04-40d9-866e-c017ca6d7c5e")
+	)
+	(junction
+		(at 215.9 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a9b678-d0f0-4129-b21e-77a178c4b126")
+	)
+	(wire
+		(pts
+			(xy 62.23 132.08) (xy 62.23 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0035c092-85b7-4f87-8773-63997fd621e3")
+	)
+	(wire
+		(pts
+			(xy 160.02 43.18) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a00dfe-0b4a-47ca-9ac7-21dca74cef69")
+	)
+	(wire
+		(pts
+			(xy 93.98 128.27) (xy 93.98 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064cd0e8-8f1d-4cf8-971e-c7bfab0322fa")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09041215-2c5e-4e98-9325-d02c32d07be8")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbdde14-9f69-4fc5-b5ff-2f0e35b7fdd0")
+	)
+	(wire
+		(pts
+			(xy 87.63 133.35) (xy 99.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddf13fe-3ff2-46fa-9333-d0d18eda9fb8")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.35) (xy 39.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1630cc-60b0-4528-a4ac-6899812b08e4")
+	)
+	(wire
+		(pts
+			(xy 140.97 116.84) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119f4ae3-ae70-4216-9440-0e8198874638")
+	)
+	(wire
+		(pts
+			(xy 207.01 48.26) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ac6d71-6cb4-40e4-b304-6e99e8128715")
+	)
+	(wire
+		(pts
+			(xy 151.13 148.59) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175300d5-17a1-4193-9715-fc5f8d95b932")
+	)
+	(wire
+		(pts
+			(xy 229.87 81.28) (xy 241.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186ae81b-9091-44c6-8e94-56492368a394")
+	)
+	(wire
+		(pts
+			(xy 36.83 27.94) (xy 40.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ea7760-0d49-4a77-8722-04bd0d0e0f5f")
+	)
+	(wire
+		(pts
+			(xy 149.86 27.94) (xy 153.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd65550-995c-4d8e-bed1-df19fe4b45fa")
+	)
+	(wire
+		(pts
+			(xy 39.37 109.22) (xy 15.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0bde28-0e5d-4eba-95d4-2bfe29d1626a")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 38.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e10155c-adf1-40dd-81c8-5de7a7517c93")
+	)
+	(wire
+		(pts
+			(xy 151.13 50.8) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224cd293-61a8-471a-b4cf-cacff3fecb5a")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.35) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23072187-5609-4e50-a80a-4edd39566035")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 153.67 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247ca8d0-49c7-4e3a-937c-a067c77301ae")
+	)
+	(wire
+		(pts
+			(xy 138.43 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251e2a23-e3da-4fdf-9ed4-9dd42d0b6f54")
+	)
+	(wire
+		(pts
+			(xy 130.81 73.66) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2660bf6d-5b04-428f-bca3-4c1c493cbf6c")
+	)
+	(wire
+		(pts
+			(xy 161.29 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29de895b-1ab0-41b5-9105-18f9d30adbc9")
+	)
+	(wire
+		(pts
+			(xy 222.25 27.94) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adcde54-e32c-417e-a487-6d2767b55f85")
+	)
+	(wire
+		(pts
+			(xy 199.39 25.4) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1d261f-ef5f-45ba-ae7d-9fae75418230")
+	)
+	(wire
+		(pts
+			(xy 62.23 139.7) (xy 69.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d014d1e-7ced-4b98-a353-7e3ea19c7754")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 208.28 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff643dc-5018-4dc4-aa63-0408f719a360")
+	)
+	(wire
+		(pts
+			(xy 38.1 123.19) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313f4c26-f2d0-49fc-b363-5ea14ceaa876")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a252fe-4f8c-4406-8777-a10327d705b9")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328e143c-826d-4e97-9259-adc1016ca31c")
+	)
+	(wire
+		(pts
+			(xy 130.81 73.66) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d75fea-97fd-4b36-85be-4af5d762cc4a")
+	)
+	(wire
+		(pts
+			(xy 132.08 34.29) (xy 132.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354aff5c-183d-40b6-89a5-a84b635e327b")
+	)
+	(wire
+		(pts
+			(xy 57.15 153.67) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364e3f0a-83ff-4f75-8580-328aaed7b55f")
+	)
+	(wire
+		(pts
+			(xy 36.83 153.67) (xy 39.37 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38166294-c972-417d-b796-6178cf456705")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a77979d-6c47-48b1-b3c8-8b1943cc6c5b")
+	)
+	(wire
+		(pts
+			(xy 96.52 143.51) (xy 107.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bddd403-dcfb-42af-b976-22fd9ed9988c")
+	)
+	(wire
+		(pts
+			(xy 240.03 72.39) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d754af0-0e96-4407-aea3-95e92534ed5b")
+	)
+	(wire
+		(pts
+			(xy 153.67 25.4) (xy 156.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3531cd-6bad-4b6e-83bd-dc020653db69")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 242.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1a6ecc-1169-463d-a9c2-0cbcb0f401c1")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4000ab61-7d95-4042-b078-9686da4be8bc")
+	)
+	(wire
+		(pts
+			(xy 91.44 125.73) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412c05c5-6733-402b-9abb-65447aa23a7d")
+	)
+	(wire
+		(pts
+			(xy 102.87 158.75) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4170539e-2cd7-439a-b2bd-1bb2eb7e77b7")
+	)
+	(wire
+		(pts
+			(xy 204.47 107.95) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e0ae80-de01-451c-8416-f04ac5d61d62")
+	)
+	(wire
+		(pts
+			(xy 171.45 50.8) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e0b07e-678b-4894-bf70-00056e1dbc52")
+	)
+	(wire
+		(pts
+			(xy 36.83 73.66) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4592bbe2-17da-4f30-9e1c-bacb54c92660")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46964e21-a343-4513-9763-42316ce6c816")
+	)
+	(wire
+		(pts
+			(xy 102.87 148.59) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d3f273-47b3-4a14-950e-49094e0ce027")
+	)
+	(wire
+		(pts
+			(xy 83.82 158.75) (xy 85.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494dd1b7-9e5c-48e1-b961-b26695a71f42")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 38.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4969c195-7b80-49a6-a78a-ed042805f16a")
+	)
+	(wire
+		(pts
+			(xy 109.22 182.88) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c14788d-fe9e-4b92-8b8f-5eafcbf78df9")
+	)
+	(wire
+		(pts
+			(xy 130.81 52.07) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9061ac-dd94-418f-bc60-0e8d49cc53c5")
+	)
+	(wire
+		(pts
+			(xy 107.95 143.51) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd8ca2d-36ff-438c-b1fb-37b8f2a6ac54")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff09370-5af2-4fd1-8626-d98c3d19ee34")
+	)
+	(wire
+		(pts
+			(xy 208.28 102.87) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517f9d60-dd16-4416-b97b-19876c9e7243")
+	)
+	(wire
+		(pts
+			(xy 265.43 44.45) (xy 276.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c07fd4-1ea8-433a-a58c-d45464b5921f")
+	)
+	(wire
+		(pts
+			(xy 161.29 40.64) (xy 172.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a72a130-679b-42e2-ba90-403603f3654d")
+	)
+	(wire
+		(pts
+			(xy 120.65 133.35) (xy 116.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9905ea-f50d-425b-9229-f71ece32e653")
+	)
+	(wire
+		(pts
+			(xy 218.44 34.29) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df04ae9-9fe9-4009-b09a-afd668f33638")
+	)
+	(wire
+		(pts
+			(xy 64.77 129.54) (xy 59.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df62ec2-aef7-4ba6-b603-e9228b8422b5")
+	)
+	(wire
+		(pts
+			(xy 107.95 139.7) (xy 107.95 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e55cdc4-90eb-4f23-ad17-b23eb872efcf")
+	)
+	(wire
+		(pts
+			(xy 64.77 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6048b619-7bb1-4204-848b-58e19767f996")
+	)
+	(wire
+		(pts
+			(xy 171.45 52.07) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60aa9f76-c148-4148-bbb8-07b0e82a7f71")
+	)
+	(wire
+		(pts
+			(xy 190.5 34.29) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6125140d-8065-43be-8bd1-0f7cb5c513aa")
+	)
+	(wire
+		(pts
+			(xy 87.63 139.7) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62372969-4d2d-4ed2-916e-b04571e2f276")
+	)
+	(wire
+		(pts
+			(xy 83.82 154.94) (xy 83.82 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6291c093-23ab-41ad-9369-e62f3c21ea0e")
+	)
+	(wire
+		(pts
+			(xy 161.29 50.8) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f55031-6e4c-4631-81ba-2f022cfbb802")
+	)
+	(wire
+		(pts
+			(xy 172.72 43.18) (xy 176.53 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669a3320-399d-4266-adf7-45c219f0e920")
+	)
+	(wire
+		(pts
+			(xy 222.25 25.4) (xy 224.79 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671c31b9-5d64-4df6-9158-9c3ce0439298")
+	)
+	(wire
+		(pts
+			(xy 130.81 25.4) (xy 132.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68540f99-ff3e-4100-a211-08d0c072ec82")
+	)
+	(wire
+		(pts
+			(xy 59.69 127) (xy 59.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b814105-1e16-4aa2-a501-0e8ab454a361")
+	)
+	(wire
+		(pts
+			(xy 36.83 102.87) (xy 39.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b96b841-8ee1-4d67-82ca-fc63b7912ecc")
+	)
+	(wire
+		(pts
+			(xy 200.66 34.29) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fbd487-a0c0-4185-abea-0b2a5b50874a")
+	)
+	(wire
+		(pts
+			(xy 17.78 123.19) (xy 19.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74809231-bbb6-4f5e-b7ab-681287007825")
+	)
+	(wire
+		(pts
+			(xy 218.44 27.94) (xy 222.25 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c3dfc9-c1df-4aad-b888-a4ccb4ce2411")
+	)
+	(wire
+		(pts
+			(xy 267.97 25.4) (xy 270.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a85540-e00a-4274-989d-a31902e9f1be")
+	)
+	(wire
+		(pts
+			(xy 36.83 25.4) (xy 41.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788c279b-4fb2-4893-bcc8-8cf6cbce708e")
+	)
+	(wire
+		(pts
+			(xy 151.13 153.67) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79eaa34f-49d8-4ad3-822f-1e43033a5629")
+	)
+	(wire
+		(pts
+			(xy 215.9 107.95) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4831bd-1272-4ae6-bf8c-611d36917a78")
+	)
+	(wire
+		(pts
+			(xy 276.86 36.83) (xy 276.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a919f5b-d26b-472c-a34b-95d1fc32d9be")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edc1720-6e4f-4922-93bf-6c231c407a02")
+	)
+	(wire
+		(pts
+			(xy 175.26 34.29) (xy 175.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f548792-01ba-4963-bfc0-aa96a3386a99")
+	)
+	(wire
+		(pts
+			(xy 17.78 111.76) (xy 17.78 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80128825-ff5d-4719-9136-35152ff6a285")
+	)
+	(wire
+		(pts
+			(xy 139.7 153.67) (xy 151.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80cba414-1b7c-4cfc-9ef9-c01cbd5c4fb0")
+	)
+	(wire
+		(pts
+			(xy 222.25 25.4) (xy 222.25 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ab99b8-ada4-4ad3-ad8a-fcd38bc54bf2")
+	)
+	(wire
+		(pts
+			(xy 19.05 133.35) (xy 15.24 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84804af6-d673-496c-8933-d3449e828d63")
+	)
+	(wire
+		(pts
+			(xy 151.13 50.8) (xy 161.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa21ecd-a529-4933-b5c8-55d7358cb707")
+	)
+	(wire
+		(pts
+			(xy 82.55 154.94) (xy 83.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b74672b-6a50-4856-b135-23119e1c4926")
+	)
+	(wire
+		(pts
+			(xy 200.66 25.4) (xy 201.93 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1bb5d9-43bf-48b9-81a7-a4defe861377")
+	)
+	(wire
+		(pts
+			(xy 241.3 81.28) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dba1b7-314b-4076-9084-2989662e3aa1")
+	)
+	(wire
+		(pts
+			(xy 26.67 115.57) (xy 38.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955673e0-f036-4690-99ef-a581d03d5461")
+	)
+	(wire
+		(pts
+			(xy 222.25 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f2763d-15cc-4eba-a3bf-f4aed4416fc3")
+	)
+	(wire
+		(pts
+			(xy 40.64 27.94) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a661bfc-d6b9-4224-b87f-73adb402644a")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8f35c0-0b74-42ac-a990-65b346bab173")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f529517-6423-410e-bc0c-e45b5d76df0a")
+	)
+	(wire
+		(pts
+			(xy 93.98 113.03) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a386f08f-270f-4f2f-9da5-dd5151b3a67c")
+	)
+	(wire
+		(pts
+			(xy 41.91 100.33) (xy 36.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3eb077c-47d8-4e31-a28c-c70312e6659f")
+	)
+	(wire
+		(pts
+			(xy 241.3 72.39) (xy 242.57 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ec08ee-53a5-405d-9987-fb2f003f5271")
+	)
+	(wire
+		(pts
+			(xy 165.1 34.29) (xy 175.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a812ed48-fedb-4ba9-9c23-aeee96febebd")
+	)
+	(wire
+		(pts
+			(xy 207.01 48.26) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d5ffad-5856-432c-a041-dbd4958bc4a1")
+	)
+	(wire
+		(pts
+			(xy 175.26 25.4) (xy 176.53 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4eccdb-9128-4fb2-a033-8efaae1c0fd3")
+	)
+	(wire
+		(pts
+			(xy 208.28 34.29) (xy 218.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affc1952-0511-427d-b3cb-aad5c1316e20")
+	)
+	(wire
+		(pts
+			(xy 26.67 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b020d73e-d83f-4e35-ac80-3ec31f799267")
+	)
+	(wire
+		(pts
+			(xy 59.69 123.19) (xy 57.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b264862c-dafd-418d-9f82-82f39eac6c95")
+	)
+	(wire
+		(pts
+			(xy 96.52 130.81) (xy 87.63 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a8ca51-a61d-4ee3-9a8b-a9e42371c767")
+	)
+	(wire
+		(pts
+			(xy 153.67 25.4) (xy 153.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b4169c-084f-442f-8861-3f8f917d318e")
+	)
+	(wire
+		(pts
+			(xy 219.71 25.4) (xy 222.25 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fb954a-f458-4350-a80b-ae7d2febcd65")
+	)
+	(wire
+		(pts
+			(xy 59.69 129.54) (xy 59.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ed3ed5-bb24-4640-ba8a-376da983225c")
+	)
+	(wire
+		(pts
+			(xy 173.99 25.4) (xy 175.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8f2821-6e82-4f6f-845b-fb01c8de1607")
+	)
+	(wire
+		(pts
+			(xy 82.55 152.4) (xy 83.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be802ef4-2d08-4479-abab-6311d5f97a1b")
+	)
+	(wire
+		(pts
+			(xy 36.83 133.35) (xy 38.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3988343-edb9-4310-b87b-03796fad5cd0")
+	)
+	(wire
+		(pts
+			(xy 276.86 44.45) (xy 276.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c435e725-d59f-499b-82b8-1bfafc238591")
+	)
+	(wire
+		(pts
+			(xy 83.82 148.59) (xy 85.09 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6257ad8-c048-4d52-92bc-03e0b68cb606")
+	)
+	(wire
+		(pts
+			(xy 57.15 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caddb980-e32f-47cb-ae89-35701e051ec6")
+	)
+	(wire
+		(pts
+			(xy 194.31 72.39) (xy 196.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae31004-2a23-45bb-b3e8-6153a1cf48b7")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 93.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1888c2-4196-4b4d-8a8d-01278abf67bf")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5df451-a346-425e-95ed-dac2ddd44f13")
+	)
+	(wire
+		(pts
+			(xy 240.03 97.79) (xy 242.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4ab55b-f9bd-4b5f-9110-ba827b801cb8")
+	)
+	(wire
+		(pts
+			(xy 96.52 25.4) (xy 97.79 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01c9a0c-5bcf-442c-98e9-8930726d946b")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d124a93e-2f03-4dfe-8785-b16b5ba1297c")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ef513a-50bc-4a5f-a272-847ec89cbf83")
+	)
+	(wire
+		(pts
+			(xy 132.08 25.4) (xy 133.35 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b8570e-3787-4c3d-ad5b-e463b3f1e45e")
+	)
+	(wire
+		(pts
+			(xy 40.64 36.83) (xy 36.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bc9433-d0a1-40d8-ad98-6149adaf0613")
+	)
+	(wire
+		(pts
+			(xy 242.57 25.4) (xy 245.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8591d09-ceae-404f-87be-0f1e5ab1ce04")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daef8f78-392f-4b20-91c8-3e5a1a8cab81")
+	)
+	(wire
+		(pts
+			(xy 208.28 85.09) (xy 276.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e014fa57-5250-4cd1-87be-72d9f02483a4")
+	)
+	(wire
+		(pts
+			(xy 153.67 27.94) (xy 153.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29d4f6c-4fe2-414b-a2ec-0b6624b6af63")
+	)
+	(wire
+		(pts
+			(xy 39.37 102.87) (xy 39.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e359c481-4f94-47a8-90e6-4a0713016b92")
+	)
+	(wire
+		(pts
+			(xy 222.25 50.8) (xy 222.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4674708-e4de-4b22-9dc1-145eda6a4170")
+	)
+	(wire
+		(pts
+			(xy 59.69 133.35) (xy 57.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c741d8-2e17-4d6b-aedc-bad81ca7d241")
+	)
+	(wire
+		(pts
+			(xy 83.82 152.4) (xy 83.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d253e4-4073-429e-9427-e8fd98d1c792")
+	)
+	(wire
+		(pts
+			(xy 15.24 109.22) (xy 15.24 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6aa2731-4b4c-4dfd-a2d5-5976a7b7f7a4")
+	)
+	(wire
+		(pts
+			(xy 120.65 179.07) (xy 120.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83f8418-140f-4542-8402-9092a954bea1")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a61217-d5d8-4968-bffe-607d609e380b")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96154d3-a45c-4911-ac9b-b842fd59010b")
+	)
+	(wire
+		(pts
+			(xy 95.25 25.4) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed059e7e-e331-430e-aa6a-ff8f01cfc62f")
+	)
+	(wire
+		(pts
+			(xy 120.65 182.88) (xy 120.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1073da-8941-426f-af8b-62ea4366285f")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 132.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05fbddb-3d06-49a1-80f4-8e7b33babf77")
+	)
+	(wire
+		(pts
+			(xy 149.86 27.94) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ba0cfa-d1cb-4d84-9b53-d5078afb8fc6")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cf4873-26be-46e2-a7c5-0b0ec4d22922")
+	)
+	(wire
+		(pts
+			(xy 41.91 179.07) (xy 120.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90ef2f9-ca71-44e0-8725-92850e8371bd")
+	)
+	(wire
+		(pts
+			(xy 17.78 111.76) (xy 41.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9500105-93bf-4be4-9d7e-46f898c7b64a")
+	)
+	(wire
+		(pts
+			(xy 59.69 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95a5aaa-c3dd-4fa9-b165-aa37a52bb3ef")
+	)
+	(wire
+		(pts
+			(xy 41.91 111.76) (xy 41.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0a44ae-1b0c-46f6-9d43-a5d6e27f706e")
+	)
+	(wire
+		(pts
+			(xy 87.63 125.73) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadb7b4e-7229-4881-8820-0b414f4a2cdb")
+	)
+	(wire
+		(pts
+			(xy 219.71 72.39) (xy 222.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd75e8f-5a31-4330-ab71-c41f25762a48")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 140.97 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd08e369-ffc7-444d-b790-b73e96ede9b3")
+	)
+	(wire
+		(pts
+			(xy 222.25 50.8) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6b9b81-0475-4d66-a86b-f15e58e9875b")
+	)
+	(wire
+		(pts
+			(xy 64.77 132.08) (xy 62.23 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc56e54-c660-4127-8987-b1f75e3502c5")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddd4266-a10a-44f5-bcc7-266131f4d17c")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 240.03 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0347234f-443e-4c29-929d-e7e2ae0deb0b")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 57.15 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0652f31e-cb3a-4944-80dd-b65ba49313c2")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 161.29 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e359dd-0751-4974-8ccc-1b784e301124")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 199.39 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e88662-0862-41a3-8103-f7f244f80963")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 58.42 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "139b3bc4-469f-47d7-af2a-4e4b43ba30c3")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 62.23 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cf9b9e5-83ae-4dda-87c0-05c5b44778c5")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 171.45 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "271044a8-d277-455a-8d57-b8cc3a1c2124")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 267.97 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "282c1e01-bf3b-40d7-9a67-c17bba79c49f")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 36.83 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29ba686a-d9a4-413d-a58b-390dd37147d9")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 118.11 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a546a88-d197-49f7-8ad5-376302e9e83a")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 95.25 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d7db3e2-b3ab-4264-bee0-2827be9e4591")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 220.98 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e8badde-8b51-4ee3-be7b-9a766dcbef28")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 173.99 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea7150c-8a9f-4b7e-86e3-b85f0b5b6575")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 36.83 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35580203-440b-4971-a546-ff09f1898ec6")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 36.83 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b64716f-5f7c-4d9c-bfe7-d43ac8ce0531")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 59.69 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402ef1eb-a6eb-43ed-81dd-1a1f5000751e")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 151.13 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4320aaf5-a46c-4609-86b0-cb72b4846502")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 83.82 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "440e7bc8-ba42-4e53-a105-a028dba0d84a")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 36.83 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49b946e1-8d00-48fd-b622-55d2c0de27ab")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 184.658 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b0875ed-2d1a-4dd9-848e-87020a133996")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 95.25 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cbe95ad-5188-424a-91e1-64db219fc690")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 36.83 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f0ca331-51b9-48f0-87c8-26e5cbbf236b")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 240.03 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "502d3de4-5e11-4178-b79d-fd0a0e2265af")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 140.97 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52000504-f77d-4772-8dca-d5a8d30d61d4")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 15.24 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "592e2b12-b7ce-4907-8099-7d61f7f3c0d7")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 59.69 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b140357-b887-4efc-861b-abab9ee2741c")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 95.25 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cf8c65c-9f40-441a-b85e-9ce2033e59ff")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 218.44 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62523590-3618-4941-a075-1ad3789a129d")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 152.4 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634a9242-2674-4dde-8e57-95fa69770bb7")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 36.83 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6530305d-4910-4010-8d27-f24d52b5be50")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 161.29 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6584970b-e7d5-4152-8d43-7e7041d963d9")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 38.1 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70827f58-b4e0-45f1-8a05-d026cc76903c")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 95.25 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "726ccf79-0fee-4a46-923f-753d6eb18b02")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 207.518 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f979e80-6b77-47c2-8b7f-ae0f0ee41129")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 173.736 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87e16252-923c-49d3-8206-427b01d5d388")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 151.13 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93d4f4ab-337c-4fa0-891a-cd6c127c1f3f")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 104.14 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9560db9a-af75-4543-b8b5-ff219b42fb6a")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 59.69 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "983817bc-2c31-4cd3-8d2c-915b48ee5092")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 140.97 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f04d5e8-52db-4c00-acb8-5f74d92eb591")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 276.098 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa0cb7e0-e906-4099-b223-b9d1b23b3e7e")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 238.76 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab7df42c-0dab-463f-a500-64aed5ca2839")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 130.81 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "affe6c77-3096-4f9c-90f8-8f89eb33f317")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 17.78 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b01a394e-9021-4d6b-ade2-54bcb11a96b7")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 38.1 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b22b7c75-0887-4799-b202-c208a3e34d08")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 83.82 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4ac50f1-a349-4708-a085-52d1e7c60891")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 219.71 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9027046-2c06-4896-91d1-e2cb801ccfa8")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 130.81 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce232ecd-5a68-4ed1-a9a3-b2e95af740aa")
+	)
+	(text "/4"
+		(exclude_from_sim no)
+		(at 118.11 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cef7c45b-06eb-4cd6-8e24-7c8f419c04e5")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 43.18 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b21538-4ef9-401d-836a-614ce15d7f33")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 95.25 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d51ba8-43c1-4ce7-85f7-4e605fc37699")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 88.9 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4927930-f8f4-4948-a509-0bb658f8065f")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 130.81 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e858ecbb-b2de-44c8-a439-c8caaa5f9273")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 194.31 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec0c839b-00a5-44fa-837e-09fc9ca8aac7")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 242.57 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edd590e5-83be-4a73-ac17-fc1e55c520ea")
+	)
+	(text "/2"
+		(exclude_from_sim no)
+		(at 104.14 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f71679d6-00e1-48c5-9400-351d86529c0f")
+	)
+	(text "/3"
+		(exclude_from_sim no)
+		(at 118.11 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa5536c0-12d6-421c-9c99-486164a99166")
+	)
+	(label "Harness_15"
+		(at 26.67 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0af19a0d-f65d-4c69-8664-c00817470c73")
+	)
+	(label "Harness_12"
+		(at 204.47 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "207d10bf-5668-4c72-85b2-0b6ce63322ef")
+	)
+	(label "Harness_13"
+		(at 189.23 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23edeecf-3e04-4646-8045-5a1f674300bb")
+	)
+	(label "Harness_7"
+		(at 265.43 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "242d879e-7872-4f12-bace-774cd18d93f6")
+	)
+	(label "Harness_9"
+		(at 120.65 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2deee114-2733-460c-a5cf-5d484b41cded")
+	)
+	(label "Harness_4"
+		(at 208.28 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30f9f1ba-30a0-4bd9-a6be-c82b06b93457")
+	)
+	(label "Harness_5"
+		(at 165.1 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36a1585f-1078-4e53-9c4e-70a0ca659145")
+	)
+	(label "Harness_2"
+		(at 86.36 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40ded4fc-e09b-49f8-9ec4-2afe25bccdd6")
+	)
+	(label "Harness_20"
+		(at 161.29 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf2c8f1-0546-45f1-b032-cd73fe859e14")
+	)
+	(label "Harness_18"
+		(at 109.22 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ca9dd24-d544-4487-8d22-689ec9e39c27")
+	)
+	(label "Harness_1"
+		(at 50.8 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "749f3af4-f8c7-4ba5-b93d-718dca02de55")
+	)
+	(label "Harness_19"
+		(at 138.43 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a005bb8-928a-4f61-a212-c293416fa5b7")
+	)
+	(label "Harness_10"
+		(at 129.54 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92206134-7c59-43cf-93b5-ca354cc77be7")
+	)
+	(label "Harness_14"
+		(at 229.87 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a7b9e3c-6810-4458-81ba-482aff01d09a")
+	)
+	(label "Harness_11"
+		(at 139.7 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d6ab38c-086e-4e99-aee3-f9df2efb0f1f")
+	)
+	(label "Harness_17"
+		(at 96.52 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8419367-2662-4435-acfe-05f7b2220a75")
+	)
+	(label "Harness_8"
+		(at 196.85 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8d3b4f8-b18e-4b6c-8bc7-b9180d04b4f9")
+	)
+	(label "Harness_3"
+		(at 121.92 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea1da980-4faf-4921-8e29-0d712efd7b9b")
+	)
+	(label "Harness_16"
+		(at 26.67 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea6676ab-7c1d-4304-b80d-7d7df49cc564")
+	)
+	(label "Harness_6"
+		(at 190.5 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb4ddc0a-394e-4152-b41b-c2aedb531bca")
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 151.13 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05498c90-b3de-4ad4-b7ef-4e44b1a9fe43")
+		(property "Reference" "CN23"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 153.035 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "235956d4-5f01-475e-b9ce-793ff6271415")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 88.9 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "070b5a49-8bce-4ef4-9625-9b4b8a75d95f")
+		(property "Reference" "CN4"
+			(at 91.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 85.09 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b922cd14-6020-446e-90dd-70d4b85392d5")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Shell_Joulemeter")
+		(at 187.96 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07d470ec-f275-4f26-ae87-e5f73ad5aeec")
+		(property "Reference" "JLM1"
+			(at 187.96 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Shell_Joulemeter"
+			(at 187.96 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cfb4198-35bf-4714-a225-ce9e4eb572c9")
+		)
+		(pin "2"
+			(uuid "99d36996-4fd7-4927-a3cd-c0164c7dd8e3")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "JLM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 236.22 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c20793a-5ead-4815-91f2-b8e4c2072eb4")
+		(property "Reference" "CN62"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 232.41 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32c81ec-497d-4358-84a0-4e36110d8ce7")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 91.44 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c4cbb88-9bca-4c13-a613-92296e044eeb")
+		(property "Reference" "CN50"
+			(at 88.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 95.25 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 91.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60ce7277-48d0-4d65-b305-ae35d1c78eb9")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Coupling_Controller_Module")
+		(at 71.12 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d413941-a682-4a5a-b98e-997fd27ea1f7")
+		(property "Reference" "MOD4"
+			(at 71.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coupling_Controller_Module"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c01bb677-2a3b-448a-b49e-a85a897a5f86")
+		)
+		(pin "2"
+			(uuid "b3c76465-a2e1-40e2-b8fd-7fe597a31a01")
+		)
+		(pin "3"
+			(uuid "d149cf64-4a5f-4a62-bce7-e3dec0976e25")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "MOD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Coupling_Motor")
+		(at 25.4 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1232050b-b8b7-4a9d-9855-d14412c40553")
+		(property "Reference" "MOT2"
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Coupling_Motor"
+			(at 25.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "325ce91f-de92-4103-a490-6c45828153c0")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "MOT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 187.96 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "137c23f7-503b-42d8-9be4-3e8afed0052f")
+		(property "Reference" "CN26"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 186.055 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f023ab-e622-4ff6-ade5-f864611746d8")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 68.58 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1abef552-2406-4d1d-bcd2-0f0ac32f47e9")
+		(property "Reference" "CN3"
+			(at 66.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 72.39 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7d33d1-8430-48c3-840a-1bfcf2f6e955")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 91.44 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3f6c3a-7d50-4a77-9473-ef54e206504c")
+		(property "Reference" "CN46"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 95.25 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c075b8-22ad-49f0-a8de-9c37b0d81205")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 30.48 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ed5b2ee-b3e0-447c-b724-ee40956fe5fe")
+		(property "Reference" "CN56"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 26.67 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 30.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a270f979-5305-44ee-b408-d7a7b6b2bf90")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 144.78 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2266bf5c-ee2c-4c82-8d47-074903e74891")
+		(property "Reference" "CN57"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 140.97 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ab11fb9-f5a2-4149-827d-9c06693063b0")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 233.68 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24c6edc4-db9e-4a59-bebe-8481b0721ce4")
+		(property "Reference" "CN33"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 229.87 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3154edf2-f89d-4807-a1f1-11a25ccd4129")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 231.14 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29dffc63-8f13-4120-8e76-79ebfef6a2df")
+		(property "Reference" "CN9"
+			(at 228.6 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 234.95 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 231.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f65ff413-73de-4150-90f3-73404ef46bc5")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 162.56 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bd18fe9-d34e-4228-b062-6e5d15a50c72")
+		(property "Reference" "CN58"
+			(at 160.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 166.37 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "774f9eed-6fb1-405c-b9da-0edb4fae311a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 105.41 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2eb10014-010b-4f41-b5d2-b659b2ac23e3")
+		(property "Reference" "CN34"
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 109.22 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "349a3277-740f-4ffd-be6c-0782540c6a1e")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 161.29 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d2f19b-98d6-4281-8509-9487ebf9b76b")
+		(property "Reference" "CN19"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 159.385 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2afc09b-23ed-4396-a986-66d3667bccba")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 153.67 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c44a71-143c-4c8e-a88f-823cce4c3ff7")
+		(property "Reference" "CN60"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 149.86 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eca9226-bc5c-468c-8267-9ff090d2c92e")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 104.14 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "332f8a49-8024-4c8f-8595-1a81ab8db058")
+		(property "Reference" "CN5"
+			(at 102.108 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 107.95 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a972c248-1494-43d1-b2f7-29a411a14d5e")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Emergency_Switch")
+		(at 78.74 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "342af434-8ddd-4040-99f9-f528555771e9")
+		(property "Reference" "SWT1"
+			(at 76.2 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "External_Emergency_Switch"
+			(at 66.04 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 78.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "SWT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 187.96 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37198838-ed03-469d-8b1a-df0d2c15cf7e")
+		(property "Reference" "CN27"
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 184.15 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "931115b5-773d-4aec-9c6d-d3804ba08e97")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 50.8 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f77e9e4-a8ff-42e0-9c39-658ee1e12c3f")
+		(property "Reference" "CN49"
+			(at 53.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 46.99 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8f419b-492f-4ae2-90c4-8fe362fe2811")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 35.56 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40fc815f-880e-4627-93fd-50dc77fc802a")
+		(property "Reference" "CN52"
+			(at 38.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 31.75 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "977033dd-7268-45b2-9ecf-0759cc5983f4")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 151.13 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "446b9390-b7e1-4d94-b1ae-37d905e480f1")
+		(property "Reference" "CN18"
+			(at 154.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 149.225 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 151.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf26fdba-a8ba-4422-8b4d-d5f9a966e11c")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 140.97 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49f34886-769e-4290-849c-da3753824c38")
+		(property "Reference" "CN22"
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 142.875 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 140.97 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "406eb152-9430-467a-bf0b-85a78cefcd54")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 105.41 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4da8058f-217f-46f8-a75b-acd89ec83963")
+		(property "Reference" "CN42"
+			(at 102.87 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 109.22 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b464ae05-cf3c-4d59-b98c-670997504c8a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 76.2 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f9969be-47d5-44b5-b4b3-7b66c02bce05")
+		(property "Reference" "CN44"
+			(at 73.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 80.01 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f18abd93-9677-4e23-abda-a2ebe681f037")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 213.36 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5580897b-24f6-4b28-ab77-d12b62666486")
+		(property "Reference" "CN8"
+			(at 215.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 209.55 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb135e97-f676-4fb0-bab6-f563da859e73")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 30.48 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56fe5bd3-e0cb-4d54-9fee-0d17d0a4ac22")
+		(property "Reference" "CN54"
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 26.67 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 30.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a766cc0-9c87-4ce7-8ef8-179f44b2ae91")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 45.72 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ac22f28-4eeb-4b80-bca5-8406d35bf9ba")
+		(property "Reference" "CN40"
+			(at 43.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 49.53 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca7f92dc-a55a-41b3-aa9c-ae899c6d86a6")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 153.67 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "626bff65-3fc1-4620-90c0-e30c0d3aa2b6")
+		(property "Reference" "CN59"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 151.765 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 153.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4b8207-1f2b-4eb6-9f4a-59b1a34bd7ba")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 130.81 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a4af68-1d22-4005-a8f6-afba5f0acbb4")
+		(property "Reference" "CN16"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 128.905 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 130.81 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "624e0536-fe71-41e2-9cdd-d6874b9afd27")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 110.49 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68bc59c1-2322-407b-bf31-39778646bc7c")
+		(property "Reference" "CN35"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 106.68 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146dff9c-8e0b-4afc-955b-6dcc70a7c8d6")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 187.96 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fa3e191-8fe3-4a64-a32d-8ca6bb70d092")
+		(property "Reference" "CN25"
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 189.865 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ffeeeb-185d-496d-b509-8373c49ba6ab")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Wheel_Speed_Sensor")
+		(at 25.4 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7083f5f9-44f3-4d0b-a01c-03cac2eb84f8")
+		(property "Reference" "SEN2"
+			(at 25.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Wheel_Speed_Sensor"
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "SEN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Vehicle_Battery")
+		(at 25.4 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "727feff0-3bf2-41b0-a90d-9bc5c531ca6f")
+		(property "Reference" "BAT1"
+			(at 25.4 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vehicle_Battery"
+			(at 25.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb319cd-dea8-4a5b-9f96-0db705445581")
+		)
+		(pin "2"
+			(uuid "0af414bc-c3e6-4e3f-bcea-dc3963027141")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 110.49 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72c4c89d-a446-46c5-a280-c1f74b5f3da9")
+		(property "Reference" "CN43"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 106.68 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e40f3bd-4fd8-42c2-bc39-c6f8057ab53b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 222.25 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7609adb4-09c9-4804-b001-60f50c1963bf")
+		(property "Reference" "CN14"
+			(at 226.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 220.345 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5923df3-a664-4be7-8167-15a01e7df0d8")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 233.68 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e623b79-060f-4b6a-a352-ef8706dad78c")
+		(property "Reference" "CN29"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 229.87 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824dc1e4-5db7-43da-a101-a18f5bd6ec16")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 161.29 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e9a6913-4562-43f5-a175-3fcf49e53ff4")
+		(property "Reference" "CN24"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 163.195 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28397c96-d05c-4ac1-9a7a-94f30fc4dee7")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 110.49 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "805786c5-b49f-4124-9398-ee72e81fad2c")
+		(property "Reference" "CN37"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 106.68 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5e80281-61c6-4b12-8ca0-914e013ed051")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 171.45 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82806cb4-ffad-41dd-8dae-2c444765c489")
+		(property "Reference" "CN20"
+			(at 175.26 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 169.545 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0ae8e6-cf31-4478-aae9-f5c1f7f9a918")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 53.34 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83cfb6a9-c1b2-4f64-a69e-6ed39bbec147")
+		(property "Reference" "CN2"
+			(at 55.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 49.53 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 53.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b54fc06-acce-4464-90bb-2a5856e892d7")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Motor_Controller_Module")
+		(at 76.2 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88834f59-1efa-482c-aa25-e3bdfa2a756f")
+		(property "Reference" "MOD3"
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_Controller_Module"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 76.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fac1cd9-bca9-41b6-80bb-078992d6acc5")
+		)
+		(pin "2"
+			(uuid "8920b696-bbb2-44c7-ba94-931994b24c0b")
+		)
+		(pin "3"
+			(uuid "4bf009ec-f4aa-4109-9dfe-8f66c7fc2766")
+		)
+		(pin "4"
+			(uuid "30bd2b64-a5d9-47b5-a8f7-a47cff048ff7")
+		)
+		(pin "5"
+			(uuid "f21204fe-6f45-4f54-8a7c-22c28e57e05a")
+		)
+		(pin "6"
+			(uuid "22326b74-841f-4ead-894e-f7f9891f6b65")
+		)
+		(pin "7"
+			(uuid "04f50bdc-5771-42e9-90a9-74cadcf422c7")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "MOD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 96.52 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a2e7a95-275e-4133-8821-53841644f4f7")
+		(property "Reference" "CN47"
+			(at 99.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 92.71 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a3cadc1-ec72-4643-a107-9dd0b8afb038")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 25.4 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b1ac7f9-54a7-4fd9-9e9d-0888387c15e4")
+		(property "Reference" "CN55"
+			(at 22.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 29.21 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ff045c-2c71-41d7-a3e7-79f06f5b159a")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Horn_Switch")
+		(at 256.54 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d357991-e9cc-4188-9520-d1c41afffcc0")
+		(property "Reference" "STU1"
+			(at 256.54 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor Step-Up"
+			(at 256.54 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 256.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bafde7c6-2f60-40ce-ae6a-7a38e348727a")
+		)
+		(pin "2"
+			(uuid "f6c9aad3-f41e-4ad6-abbd-1d6164e9c014")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "STU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 81.28 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "992da154-2380-4492-ac6a-a1cbb8dc17c7")
+		(property "Reference" "CN45"
+			(at 83.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 77.47 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 81.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4116f37-d322-49ef-b46a-13d496448f3c")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 208.28 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9be64b25-59aa-4443-a39c-c082c8bf7fe5")
+		(property "Reference" "CN11"
+			(at 205.74 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 212.09 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99314d87-2741-454b-b679-e0e392068059")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 45.72 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a19ffd8c-5437-4452-b8ee-07f54ef0ef08")
+		(property "Reference" "CN48"
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 49.53 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 45.72 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b612b43-0c4a-412b-8d29-13d16e34b08e")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Emergency_Switch")
+		(at 114.3 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b9e22f-0266-4389-b022-7fea1dbeb310")
+		(property "Reference" "SWT2"
+			(at 111.76 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Internal_Emergency_Switch"
+			(at 101.6 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "SWT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Throttle_Accelerator")
+		(at 254 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5247f83-0f4c-4594-9c61-92404249eafd")
+		(property "Reference" "SEN1"
+			(at 262.89 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Throttle_Accelerator"
+			(at 262.89 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 254 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b471b5da-224c-4d0f-aae6-59f03890df45")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "SEN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Steering_Wheel_Module")
+		(at 254 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9aa5030-ca84-46b9-8e0e-ce2c41897b7a")
+		(property "Reference" "MOD2"
+			(at 262.89 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Steering_Wheel_Module"
+			(at 262.89 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b64f63c-70a7-4c49-a12e-ef2bff8567ce")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "MOD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 167.64 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac7b71ad-8bf8-4982-bd85-7b4671e011aa")
+		(property "Reference" "CN10"
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 163.83 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c2e0e36-03de-447f-b96b-fdf9ae6f59ae")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 45.72 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adfb74cd-e9dd-4d47-a615-0555571a4e33")
+		(property "Reference" "CN30"
+			(at 43.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 49.53 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa64dd70-5a34-4fe0-a2dd-297ef81c680b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 30.48 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b45864a7-8dbc-4d96-aec4-53e2a476629b")
+		(property "Reference" "CN13"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 26.67 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 30.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "752769b4-946f-4ba3-9d56-73466f5a09b3")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 124.46 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b898c375-7c83-42fb-bff0-442b92aa0928")
+		(property "Reference" "CN6"
+			(at 127 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 120.65 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbc79b5a-e355-48da-b400-cbdd4ba151a3")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 139.7 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb440399-d627-44e6-a87f-28fea9f0a4a2")
+		(property "Reference" "CN7"
+			(at 137.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 143.51 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5b8e0f0-a68b-49fc-938b-ad9f7961dde8")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 45.72 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c67c93ca-1562-4136-81ac-e7cf9cf05de3")
+		(property "Reference" "CN38"
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 49.53 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dcfead6-ec75-4260-af66-e673ffd62cdc")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 130.81 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7dbd328-1acf-43f6-8822-441df3903434")
+		(property "Reference" "CN21"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 132.715 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6399e985-1e1b-45e3-887a-9c19707b6806")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 276.86 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c98d72da-423b-4921-bde7-85c4915994e2")
+		(property "Reference" "CN12"
+			(at 273.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 278.765 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 276.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3c63ba0-4531-4d5e-b3e1-28e77d50b065")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Wheel_Motor")
+		(at 25.4 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d12f6f36-1f2c-4835-ba59-95c515b3386c")
+		(property "Reference" "MOT1"
+			(at 22.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wheel_Motor"
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e94ee29e-edf8-49d6-8cad-3ff18635febb")
+		)
+		(pin "2"
+			(uuid "17354505-79d0-4195-8d7c-81e595b5db02")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "MOT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 50.8 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d4c379-d75b-4fd8-a05e-58fd61faf7b4")
+		(property "Reference" "CN31"
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 46.99 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9da02117-8be1-46fc-bf49-cf0b15b698bd")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Horn_Switch")
+		(at 208.28 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d69d0678-4050-4fff-a14f-6f0ff8918367")
+		(property "Reference" "SWT3"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Horn_Switch"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "162203d7-3b25-451b-8595-2b1c6b16e536")
+		)
+		(pin "2"
+			(uuid "14f34288-45e2-4a60-b466-c01ddc27e9c5")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "SWT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Telemetry_Module")
+		(at 25.4 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d81382fd-ba86-4e51-aeb8-9a90a3ce38a6")
+		(property "Reference" "MOD1"
+			(at 25.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Telemetry_Module"
+			(at 25.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef1c7359-fcde-48ea-9bec-6090f87566d0")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "MOD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 96.52 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da184839-8c72-471a-917a-0b5794f587b0")
+		(property "Reference" "CN51"
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 92.71 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 96.52 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2fd64c3-9b68-4c63-a7e2-a921228d3a54")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 50.8 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbb388a1-7e4d-4050-aaa7-09f971cfc376")
+		(property "Reference" "CN41"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 46.99 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e5ad3d-6bbe-41c2-a8d5-1c37d9fb0e5b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 182.88 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df0de8ed-ca83-4e1f-9094-a68d9fef70a6")
+		(property "Reference" "CN61"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 186.69 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 182.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0279e6f7-e8e5-420d-90d5-8a0605dc81ae")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 48.26 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e57e47b7-9623-432b-94c2-81e55105f89c")
+		(property "Reference" "CN1"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 52.07 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c22caad-d996-429b-9c89-dfb89e543d53")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 105.41 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6721ab1-e022-4d04-8257-d98c80317012")
+		(property "Reference" "CN36"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 109.22 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "756fb0ba-b5ab-41ea-be2e-b63051690a0c")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 228.6 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e67c9be5-9c82-48c2-a68d-678c4d32f4d9")
+		(property "Reference" "CN32"
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 232.41 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41467220-f0a4-469d-9e54-876ae24fc2aa")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EletricalDiagram_Eco2024:Vehicle_Horn")
+		(at 254 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eade0d34-238f-4a63-b398-4fef7c3ffed7")
+		(property "Reference" "HNK1"
+			(at 262.89 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vehicle_Horn"
+			(at 262.89 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "243f0a0d-9a32-4a52-9efb-2d20e6c06542")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "HNK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 25.4 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed2bd351-6892-497e-add4-c185a9343ad1")
+		(property "Reference" "CN53"
+			(at 22.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 29.21 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5a870d0-8e06-48cb-b602-50f8edfcc8d8")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 276.86 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1c8f208-f66c-4cf7-9a20-d264de82f74f")
+		(property "Reference" "CN63"
+			(at 274.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 280.67 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 276.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f393615d-fb8b-4eeb-92ad-d1ea9c6c89fd")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 228.6 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f519c4e7-6d35-4528-9846-342248c264e5")
+		(property "Reference" "CN28"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 232.41 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 228.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea5789c-4974-4e23-9378-7fcc1a2abbce")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 140.97 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f70ec4b6-c3f6-4a33-aa75-6ed7da103d57")
+		(property "Reference" "CN17"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 139.065 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455abf97-c198-473a-a1b0-b283c74d00c8")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 222.25 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb21e442-d8a7-4cde-83fd-8334b8505813")
+		(property "Reference" "CN15"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 224.155 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "339ba173-3fbd-40e2-b692-41879d08765b")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Eletrical_Diagram:Connector_Single")
+		(at 50.8 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe61f4bf-3d66-4691-b5c5-2fcf331c3db6")
+		(property "Reference" "CN39"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector_Single"
+			(at 46.99 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" ""
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efaec1d2-d9d3-4265-b8a6-6b46306f7760")
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(reference "CN39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 158.75)
+		(size 30.48 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cf142df-69ec-4696-bbbe-7205bcc26611")
+		(property "Sheetname" "Battery"
+			(at 219.71 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery.kicad_sch"
+			(at 219.71 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Campo2" ""
+			(at 219.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 252.73 158.75)
+		(size 30.48 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1cf4069-bad1-4de0-9a7d-f27fff694409")
+		(property "Sheetname" "Harnesses_1"
+			(at 252.73 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Harnesses_1.kicad_sch"
+			(at 252.73 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EletricalDiagram_Eco2024_Carbonasso"
+				(path "/4f91d540-c32f-4c45-8e2a-080b596d8aad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

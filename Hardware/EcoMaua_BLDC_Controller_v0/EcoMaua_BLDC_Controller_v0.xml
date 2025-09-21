@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\rfranca\Development\KiCad\EcoMaua_BLDC_Controller_v0\EcoMaua_BLDC_Controller_v0.kicad_sch</source>
+    <date>5/22/2023 11:56:12 PM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EcoMauá BLDC Controller  V0</title>
+        <company/>
+        <rev>V1.0.0</rev>
+        <date>2023-05-22</date>
+        <source>EcoMaua_BLDC_Controller_v0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caa04ab0-5f45-4bea-a7e8-4f0473e1e612</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf156ed-e5bd-465e-bc7d-9c8bfd975dd4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f91b143-78c2-4dc1-b93b-0d1493abd438</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4ccceb0-bcf4-4319-a195-d001f783dd40</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4141cbc-4c1b-41bc-b9e3-0db60235c004</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b883861-301d-4678-b4bd-4beb549bee66</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49be77c0-3f1a-49a6-a2a6-1ea5a1974787</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3507059a-c217-44c5-99da-ad6990cd1483</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100uF/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f82b9e3a-7b55-4107-83f3-66156e916756</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100uF/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8122f6e-8960-4ba8-8e9b-081af3031c95</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100uF/63V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5618bd3-607c-432c-aac2-1c614dce8354</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd7b3535-d768-4c00-bdae-82ddabf567a9</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5840d18b-4bc2-4f20-9c4b-324adf31d867</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>470nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c560bfbc-def8-4a36-8081-09b4ba8b01ba</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5182499-47f4-460f-85b9-cc49cd38475c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>653c1ab9-d0d7-4f14-8fc9-7a02b7e333d9</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aca3ca05-bdb4-44dd-ae66-49046c9d1b6c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db9d56e0-c6c8-4c0f-8966-5b50494ff65a</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cccade1-664c-428c-b247-d41515ebbae6</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100uF/25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9613338f-d77e-47db-baaf-5fdd92f3fec1</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>253cbc02-0146-48e5-a095-5e442dc32db5</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da9d72a9-948f-4a4c-9245-0068b93e008a</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>47uF/16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4f1aea5-f57d-49dc-bf92-2d365596ce86</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>272c5c10-da72-434a-8084-22c077396112</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d097bff-576b-45d3-801f-53d0678d9036</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce1700be-895c-4eb1-b1ec-03d2aaab0395</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>965b2967-6bd8-4429-9819-354d56c7863a</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba0cdb8f-4597-42e7-b12a-355fba04cb4b</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6833e4fb-b869-4b91-9415-23dd943c331a</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9145bb86-e4e6-44f9-9a7a-52f231fbff60</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d1d7d98-def6-41c3-8a19-c1e5d98515e9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0db764bf-363a-471f-9c3b-b61f2e7cad88</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bc66f78-8d34-43cb-ac0f-ed14405eec82</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9ab5a47-436d-4ee7-9943-db07d0b6baa8</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N5231</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9af93ad-892a-413a-861a-5a2295d0ae56</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>GREEN LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47fcb26e-c5e4-4f34-adea-3451c0bbcd34</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>RED LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>029f27de-c62c-4648-ad9a-a40521178a96</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CPWR_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64c23945-3eee-4f7e-9857-9f174d9c5f55</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HALL_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adcb5279-3fb9-402e-ac7d-2933c9dae567</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>MPWR_IN</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84f2aa43-f56a-4a1f-8d8d-b13749c3f00f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>MOTOR_OUT</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5390ac07-4f5e-4c20-a629-cb7a249516f4</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>EXT_I2C</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89fcbe13-417c-49c1-a10e-7b26257bb21b</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>EXT_UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d08f9b69-a294-45c3-9031-876fef89bec7</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>BTN0</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d750a6d-aad6-4a91-8ccc-639ba0b94e4b</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>LEVEL_SEL_JMP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>014232e7-4e6e-421a-bbcb-0e00dcc41221</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>BTN1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>014566f5-1502-43ba-97f3-db0dcfe38abd</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>THROTTLE_IN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76b34d97-d19a-43ec-937c-0eb1fe9442d9</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>BTN2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cf3aa10-4b1a-489a-b6ee-fd0c5f6e39df</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>ENC0</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f757f5d5-89e8-4470-8440-124c3c86ac64</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>NCE6990</value>
+      <footprint>custom_lib:TO-220F-3_Horizontal_TabDown_NoHole</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2692e883-a4ba-4422-926b-cfb6a93a8cd7</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>NCE6990</value>
+      <footprint>custom_lib:TO-220F-3_Horizontal_TabDown_NoHole</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea4c1dae-6f06-42d2-9fdf-8804f4def718</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>NCE6990</value>
+      <footprint>custom_lib:TO-220F-3_Horizontal_TabDown_NoHole</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9298d19b-61ec-4844-a5d3-3dac74cf0a00</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>NCE6990</value>
+      <footprint>custom_lib:TO-220F-3_Horizontal_TabDown_NoHole</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>883fb9dc-4d49-4432-84bc-6a485ba45242</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>NCE6990</value>
+      <footprint>custom_lib:TO-220F-3_Horizontal_TabDown_NoHole</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79217ff7-b026-4c7e-9599-029a57b15504</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>NCE6990</value>
+      <footprint>custom_lib:TO-220F-3_Horizontal_TabDown_NoHole</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2014feba-ea63-4c16-95e3-a71b138a1ce6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d095f405-2a98-4f5c-81fa-341b2415ea78</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dea2eda5-ec33-41f6-ba1d-521dd9ad5de4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06409da4-319f-408b-b00a-485c06cd8d09</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2abda6-cd1d-4eb3-867e-9e628b3fc398</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bb9cab3-0325-408c-8215-dc83c957d0e9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>593af27a-688f-4c96-8907-5333b82dc268</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>010330bb-924a-454f-9c2d-8de9d6b968b2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9bf04cb-aa6c-4959-91b5-73819d4888df</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd954864-ad68-4de7-96b6-0d8e5afeac43</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3df2b82c-067d-49d1-8e6f-f76999a4fc77</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R022</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93b65623-7566-44e4-aa8a-fde9a28dfdeb</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23419fd5-b46b-40c7-8113-e07f9547c99a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2.2kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da6b32ac-f40d-4b18-872d-5995ea6536b2</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2.2kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ed86252-825f-416b-85fa-e38d2afdb65f</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.2kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17de030d-62f4-41bb-ada5-71c3ada2933b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>18kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f85073ad-7bea-465c-ad5a-38730b8a5e59</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>2.2kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3e917fb-046b-4338-9b3b-6208147194a5</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31c6af5f-87b9-4459-98d4-336bb0d7dda1</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f13c831-8c1c-486d-8167-0879ccae6827</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5318f8c-bb9c-408e-bde6-befd7192fa7a</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7dc17eb-b7af-419e-b8eb-9e5ae93badfa</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>652d2018-5f38-4bca-a058-42ac7ff21d4e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d60d43b1-d222-43e9-b01f-4ad274a6519f</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>113e52cd-c492-45a5-8ed3-dcfde77e8b28</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66b86b55-e940-4ca7-8f69-1e8fd9affe8c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10kR</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4598f222-632c-464f-9580-a4f5cc0c6474</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>POWER_SW</value>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e71e439b-50df-4f62-b888-466a933dd89b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>IR2101</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</datasheet>
+      <libsource lib="Driver_FET" part="IR2101" description="High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3036c1f6-20ff-44f6-afc3-6fe20cb6321b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>IR2101</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</datasheet>
+      <libsource lib="Driver_FET" part="IR2101" description="High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74b4be0f-399b-445c-9756-25f273bc80eb</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>IR2101</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</datasheet>
+      <libsource lib="Driver_FET" part="IR2101" description="High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50e61471-8e3d-421c-87c6-cff4f3f9eed2</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>JY01_HLLE</value>
+      <footprint>Package_SO:SOP-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="Custom_Parts" part="JY01_HLLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c537c2d7-9a2b-4d94-af22-94d880f4c236</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM2596HVS_Module</value>
+      <footprint>custom_lib:LM2596HVS_Module_PDIP</footprint>
+      <libsource lib="Custom_Parts" part="LM2596HVS_Module" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3d67883-0431-4e80-8cb5-75b1832a4433</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MCP4725xxx-xCH</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</datasheet>
+      <libsource lib="Analog_DAC" part="MCP4725xxx-xCH" description="12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee430180-eeb2-41ca-85be-bccd674b1530</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LM7809_TO220</value>
+      <footprint>custom_lib:TO-220-3_Horizontal_TabDown_NoHole</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="LM7809_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a4964b1-9f03-4c04-a03c-bbc62e77087c</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>ACS712xLCTR-20A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="ACS712xLCTR-20A" description="±20A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cafc5923-b623-401c-8fe2-652eb2895fdd</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TTL_Level_Shifter</value>
+      <footprint>custom_lib:TTL_Level_Shifter_PDIP</footprint>
+      <libsource lib="Custom_Parts" part="TTL_Level_Shifter" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: EcoMaua_BLDC_Controller_v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91d61316-cca9-4576-a85c-a949fdadf6ba</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_DAC" part="MCP4725xxx-xCH">
+      <description>12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4725xxx-xCH</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="A0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Parts" part="JY01_HLLE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">JY01_HLLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EL" type="input"/>
+        <pin num="2" name="IS" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="Z/F" type="input"/>
+        <pin num="6" name="M" type="output"/>
+        <pin num="7" name="AT" type="output"/>
+        <pin num="8" name="AB" type="output"/>
+        <pin num="9" name="BT" type="output"/>
+        <pin num="10" name="BB" type="output"/>
+        <pin num="11" name="CT" type="output"/>
+        <pin num="12" name="CB" type="output"/>
+        <pin num="13" name="HA" type="input"/>
+        <pin num="14" name="HB" type="input"/>
+        <pin num="15" name="HC" type="input"/>
+        <pin num="16" name="VR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Parts" part="LM2596HVS_Module">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2596HVS_Module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="power_in"/>
+        <pin num="2" name="IN-" type="power_in"/>
+        <pin num="3" name="OUT-" type="power_out"/>
+        <pin num="4" name="OUT+" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Parts" part="TTL_Level_Shifter">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TTL_Level_Shifter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LV1" type="bidirectional"/>
+        <pin num="2" name="LV2" type="bidirectional"/>
+        <pin num="3" name="LV" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="LV3" type="bidirectional"/>
+        <pin num="6" name="LV4" type="bidirectional"/>
+        <pin num="7" name="HV4" type="bidirectional"/>
+        <pin num="8" name="HV3" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="HV" type="power_in"/>
+        <pin num="11" name="HV2" type="bidirectional"/>
+        <pin num="12" name="HV1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="IR2101">
+      <description>High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8</description>
+      <docs>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IR2101</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="HIN" type="input"/>
+        <pin num="3" name="LIN" type="input"/>
+        <pin num="4" name="COM" type="power_in"/>
+        <pin num="5" name="LO" type="output"/>
+        <pin num="6" name="VS" type="passive"/>
+        <pin num="7" name="HO" type="output"/>
+        <pin num="8" name="VB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7809_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7809_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current" part="ACS712xLCTR-20A">
+      <description>±20A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9m*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS712xLCTR-20A</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="IP-" type="passive"/>
+        <pin num="4" name="IP-" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="FILTER" type="passive"/>
+        <pin num="7" name="VIOUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_DAC">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Analog_DAC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Custom_Parts">
+      <uri>C:/Users/rfranca/Development/KiCad/Libraries/custom_parts.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Current.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="10" pinfunction="HV" pintype="power_in"/>
+    </net>
+    <net code="3" name="+9V">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="4" name="+15V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="OUT+" pintype="power_out"/>
+      <node ref="U7" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="5" name="AB">
+      <node ref="U1" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="AB" pintype="output"/>
+    </net>
+    <net code="6" name="AT">
+      <node ref="U1" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="AT" pintype="output"/>
+    </net>
+    <net code="7" name="BB">
+      <node ref="U2" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="U4" pin="10" pinfunction="BB" pintype="output"/>
+    </net>
+    <net code="8" name="BT">
+      <node ref="U2" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="BT" pintype="output"/>
+    </net>
+    <net code="9" name="BTN0">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="BTN1">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="BTN2">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="CB">
+      <node ref="U3" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="U4" pin="12" pinfunction="CB" pintype="output"/>
+    </net>
+    <net code="13" name="CT">
+      <node ref="U3" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="CT" pintype="output"/>
+    </net>
+    <net code="14" name="CTRL_DAC">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="15" name="CTRL_VCC">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="16" name="EL">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="EL" pintype="input"/>
+    </net>
+    <net code="17" name="ENC0">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="COM" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="COM" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="COM" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="IN-" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="OUT-" pintype="power_out"/>
+      <node ref="U6" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="19" name="HA">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="HA" pintype="input"/>
+    </net>
+    <net code="20" name="HB">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="HB" pintype="input"/>
+    </net>
+    <net code="21" name="HC">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="HC" pintype="input"/>
+    </net>
+    <net code="22" name="I2C_SCL_3V3">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="LV3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="I2C_SCL_5V">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SCL" pintype="input"/>
+      <node ref="U9" pin="8" pinfunction="HV3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="I2C_SDA_3V3">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="LV4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="I2C_SDA_5V">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U9" pin="7" pinfunction="HV4" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="IM_SENSE">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="VIOUT" pintype="output"/>
+    </net>
+    <net code="27" name="IOUT_1">
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="IP+" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="IP+" pintype="passive"/>
+    </net>
+    <net code="28" name="IOUT_2">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="IP-" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="IP-" pintype="passive"/>
+    </net>
+    <net code="29" name="IS">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="IS" pintype="input"/>
+    </net>
+    <net code="30" name="LED0">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="LED1">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="M">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="M" pintype="output"/>
+    </net>
+    <net code="33" name="MA">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VS" pintype="passive"/>
+    </net>
+    <net code="34" name="MB">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VS" pintype="passive"/>
+    </net>
+    <net code="35" name="MC">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VS" pintype="passive"/>
+    </net>
+    <net code="36" name="MOTOR_VCC">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VB" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VB" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VB" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="FILTER" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="LV" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="51" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="52" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="53" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="54" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="55" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="56" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="57" name="THROTTLE">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="58" name="UART_RX_3V3">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="LV2" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="UART_RX_5V">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="U9" pin="11" pinfunction="HV2" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="UART_TX_3V3">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="LV1" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="UART_TX_5V">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="U9" pin="12" pinfunction="HV1" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="VCC">
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="IN+" pintype="power_in"/>
+    </net>
+    <net code="63" name="VIN_SENSE">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="VR">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="VR" pintype="input"/>
+    </net>
+    <net code="65" name="Z{slash}F">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="Z/F" pintype="input"/>
+    </net>
+    <net code="66" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="69" name="unconnected-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="74" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+  </nets>
+</export>
