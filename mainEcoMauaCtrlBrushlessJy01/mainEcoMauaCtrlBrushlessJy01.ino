@@ -11,7 +11,7 @@
 #include "incSystemConstants.h"
 #include "incSystemScheduler.h"
 
-CAnalogSensor xSystemVoltage(CBoardPins::CU8_VIN_SENSE_AN_PIN, 9.2775f, 0.0f, 12, 5.0f);
+CAnalogSensor xSystemVoltage(CBoardPins::CU8_VIN_SENSE_AN_PIN, 11.91f, 0.0f, 12, 5.0f);
 CAnalogSensor xMotorCurrent(CBoardPins::CU8_IM_SENSE_AN_PIN, 10.0f, 0.0f, 12, 5.0f);
 
 // CAnalogCtrlIn xThrottle(CBoardPins::CU8_THROTTLE_AN_PIN, 750, 3100, 0.01f, 0.70f, 12);
@@ -73,9 +73,12 @@ const float CF_MAX_WSPD_KMH = 30.00f;      /* Velocidade máxima do veículo [km
 const float CF_VEHICLE_STARTING_THROTTLE = 0.15f; /* Valor do acelerador de partida do motor quando o veículo está parado */
 const float CF_WSPD_TO_MOTV_CONV = 1.15f;         /* Valor de conversão entre velocidade [km/h] e tensão no motor [V] */
 
-const float CF_MOTOR_MAX_CURRENT = 8.5f; /* Corrente máxima do motor em operação */
+const float CF_MOTOR_MAX_CURRENT = 17.5f; /* Corrente máxima do motor em operação */
 
+const float CF_THROTTLE_VAL_MULT = 1.00f; /* Multiplicador do valor do acelerador (0 - 1)*/
 const float CF_THROTTLE_MAX_STEP = 0.02f; /* Mudança limite do acelerador */
+const float CF_THROTTLE_TRH_OFF  = 0.05f; /* Limiar de acelerador desligado */
+const float CF_THROTTLE_TRH_AUTO = 0.40f; /* Limiar de acelerador automático */
 
 uint32_t u32InitTime = 0;
 uint32_t u32FinalTime = 0;
@@ -103,6 +106,10 @@ const float CF_RAMP_UP_VI = 0.15f;
 const float CF_RAMP_UP_BETA = 0.75f;
 const uint16_t CU16_RAMP_UP_N = 150;
 
+#define CF_CALIB_SPD_40_P 13.0f
+#define CF_CALIB_SPD_80_P 29.0f
+const float CF_RAMP_UP_VI_M = (0.8f - 0.4f) / (CF_CALIB_SPD_80_P - CF_CALIB_SPD_40_P);
+const float CF_RAMP_UP_VI_A = 0.8f - (CF_CALIB_SPD_80_P * CF_RAMP_UP_VI_M);
 float fRampUpVi = 0.15f;
 
 /* ================== Rampa de aceleração (estado mínimo) ================== */
@@ -263,7 +270,7 @@ void loop() {
     // }
 
     /* Gestão do acelerador */
-    if (fRealThrottlePercent <= 0.05f) {
+    if (fRealThrottlePercent <= CF_THROTTLE_TRH_OFF) {
       if (bDriveActivated == true) {
         xJy01MotorCtrl.disableDrive();
         vAccelRampAbort(); // throttle sugerido voltará a 0 na próxima chamada com reset verdadeiro
@@ -283,7 +290,7 @@ void loop() {
         //delay(100);
         /* Veículo parado, aciona o motor com um valor apropriado para sair da inercia */
         xJy01MotorCtrl.setControlPercent(CF_VEHICLE_STARTING_THROTTLE);
-        fRampUpVi = 0.03520958f * fVehicleSpeedkmH - 0.00790419f;
+        fRampUpVi = CF_RAMP_UP_VI_M * fVehicleSpeedkmH - CF_RAMP_UP_VI_A;
         if (fRampUpVi > 1.0f) {
           fRampUpVi = 1.0f;
         } else if (fRampUpVi < CF_VEHICLE_STARTING_THROTTLE) {
@@ -292,7 +299,7 @@ void loop() {
         fThrottlePercent = fAccelRampStep(fRampUpVi, CU16_RAMP_UP_N, CF_RAMP_UP_BETA, /*bReset=*/true, /*stepMs=*/100);
         // }
       } else {
-        if (fRealThrottlePercent >= 0.40f) {
+        if (fRealThrottlePercent >= CF_THROTTLE_TRH_AUTO) {
           float fThrottlePercentLast = fThrottlePercent;
           /* Verifica se o veículo está na faixa de operação de corrente máxima */
           if (CF_MOTOR_MAX_CURRENT > fCurrentA) {
@@ -308,10 +315,10 @@ void loop() {
               }
             }
           } 
-          xJy01MotorCtrl.setControlPercent(fThrottlePercent);
+          xJy01MotorCtrl.setControlPercent(fThrottlePercent * CF_THROTTLE_VAL_MULT);
         } else {
           fThrottlePercent = fRealThrottlePercent;
-          xJy01MotorCtrl.setControlPercent(fThrottlePercent);
+          xJy01MotorCtrl.setControlPercent(fThrottlePercent * CF_THROTTLE_VAL_MULT);
         }
       }
     }
