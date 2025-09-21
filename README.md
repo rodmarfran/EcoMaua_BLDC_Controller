@@ -1,2 +1,2 @@
-# EcoMaua_BLDC_Controller
-Repositório para desenvolvimento do controlador de motores BLDC do EcoMaua
+# EcoMaua_Dev
+Repositório para desenvolvimentos do EcoMaua
