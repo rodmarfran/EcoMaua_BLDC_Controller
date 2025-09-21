@@ -1,0 +1,3 @@
+
+
+Date | Temperature | Humidity | Light | Bus Voltage | Shunt Voltage | Bus Current | Bus Power
